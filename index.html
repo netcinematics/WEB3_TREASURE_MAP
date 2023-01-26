@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+    <!-- Mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <title>JSYSTEMSII</title>
+    <style>@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+        /*********************************************
+         * HEADERS
+        **********************************************/
+        h1,h2,h3,h4,h5,h6 {
+          margin: 0 0 20px 0;
+          color: #333333;
+          font-family: "Quicksand", sans-serif;
+          line-height: 0.9em;
+          letter-spacing: -0.08em;
+          text-transform: uppercase;
+          text-shadow: 0px; }
+
+        .title{ text-shadow: 3px 3px 5px rgba(150, 150, 150, 1); }
+
+        .footerText { color:#999;}
+        .footerText a{ text-decoration: underline; color:#888;}
+
+        /*.dynamicSize svg{ 
+            height:1800px;
+        }*/
+    </style>
+
+    <style>
+    /*Responsive Web Design*/
+    @media screen and (min-width: 768px) /* MEDIA-QUERY: DESKTOP - 768 AND WIDER */
+    {   
+    	.rightHeaderTips{padding-right: 35px;}
+        #chart{margin-top:55px;}
+        /*#chart {top: 80px;}
+        #chart {overflow:auto;}*/
+    }
+    @media screen and (max-width: 800px) /* MEDIA-QUERY: TABLET-LANDSCAPE - SMALLER THAN 768 WIDE */
+    {
+        .nytg-navigation li {float: none;}
+        /*#chart {top: 200px;}*/
+        .rounded li {border-radius: 4px; border:solid 1px #CCC;}
+        .nytg-navigation li:last-of-type {
+            border-right: solid 1px #CCC;
+            border-radius: 4px 4px 4px 4px;
+        }
+        #chart{margin-top:3px;}
+        /*#chart {overflow:scroll;}*/
+    	.rightHeaderTips{padding-right:20px;}
+    }
+    @media screen and (max-width: 520px) /* MEDIA-QUERY: TABLET-PORTRAIT - SMALLER THAN 520 WIDE */
+    {
+    }
+    @media screen and (max-width: 360px) /* MEDIA-QUERY: MOBILE - SMALLER THAN 320 WIDE */
+    {
+    	.rightHeaderTips{padding-right:15px}
+        .instructions{display: none;}
+        .info-text{right:3px;}
+    }
+
+
+    </style>
+
+</head>
+<!--body style="height:900px; width:1280px; overflow:auto"-->
+<body>
+<div class="rightHeaderTips" style="float:right; text-align:right">
+    <div class="hint" style="padding-top:6px; color: #50789f;">
+        <h4 style="margin-bottom: 6px; margin-top: 8px;">W e b 3  D e s i g n</h4>
+        The story of Web3 Computer Science.<br>
+        BLOCKCHAIN, Smart-Contracts, Dapps,<br>
+        <section class="instructions" style="margin-top:2px;">
+         validators, stakers, miners, minters,
+        <br><i>... and people who built it!</i>
+        <h4 style="margin-top:4px;"></h4>
+        </section>
+    </div>
+</div>
+
+<!--div style="position:absolute; left:20px; top:22px;"-->
+<div style="padding-top: 8px; padding-left: 13px;">
+    <a href="http://linktr.ee/spazefalcon">
+        <img src="./img/Web3Icon1.png" height="80px" style="border-radius:13px; padding:3px; border:1px lightgrey solid;">
+    </a>
+</div>
+
+<div class="title" style="position:absolute; left:115px; top:70px;">
+    <h3>~ Web3 ECOSYSTEM : taxonomy / ontology ~</h3>
+</div>
+
+<div class="nytg-navBar" style="left:0px; top:120px; padding-top:0px; margin-right:0px;">
+
+    <ul class="nytg-navigation clearfix rounded" style="list-style-type:none; padding-left:13px;">
+        <li id="button1">WEB3</li>
+        <li id="button2">UI/UX</li>
+        <li id="button3">BLOCKCHAIN</li>
+        <li id="button4">Principles</li>
+        <li id="button5">People</li>
+    </ul>
+</div>
+
+<!--RESPONSIVE-CHART-->
+	<!--div id="makeMeScrollable"-->
+		<div id="chart" class="dynamicSize"></div>
+	<!--/div-->
+
+<!--ToolTip-->
+<div id="toolTip" class="tooltip" style="opacity:0;">
+    <div id="head" class="header">~</div>
+    <div id="header1" class="header1"></div>
+    <div id="header2" class="header2"></div>
+
+
+<textarea id="contentText" style="position:absolute; bottom:10px; max-height:100px;min-height:100px; width:394px; resize:none; overflow-y:scroll;">Content Pending...</textarea> 
+
+</div>
+
+<!--info-text style="position:absolute; bottom:0px; left:20px; right:50px; width=100%;"-->
+<div id="footerText" class="footerText" style="width:100%;">
+
+    <div style="text-align:center;">made with <a href = "http://d3js.org/">d3.js</a></div>
+    <div style="text-align:center;">...work in progress...</div>
+    <div style="text-align:center;">by <a href = "https://linktr.ee/spazefalcon">spazefalcon</a></div>
+
+</div>
+
+<script type="text/javascript" src="./d3.min.js"></script>
+    <script type="text/javascript">
+
+        /*Add-JavaScript-Device-Detection-;easy-.*/
+		isMobile = {
+		    Android: function() {
+		        return navigator.userAgent.match(/Android/i);
+		    },
+		    BlackBerry: function() {
+		        return navigator.userAgent.match(/BlackBerry/i);
+		    },
+		    iOS: function() {
+		        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+		    },
+		    Opera: function() {
+		        return navigator.userAgent.match(/Opera Mini/i);
+		    },
+		    Windows: function() {
+		        return navigator.userAgent.match(/IEMobile/i);
+		    },
+		    any: function() {
+		        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+		    }
+		};
+    </script>
+<script type="text/javascript">
+
+
+    //-Cross-Browser-Responsive-Width-.
+var w = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    x = w.innerWidth || e.clientWidth || g.clientWidth,
+    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+
+    var respWidth = x;
+    respWidth = 1280;
+
+    var matrix = [20, 120, 20, 120],
+            w = respWidth - matrix[1] - matrix[3],
+            h = 600 - matrix[0] - matrix[2],
+            i = 0,
+            root = {};
+
+    var topicOne=""
+
+    var fieldOne="columnDataOne";
+    //var fieldTwo="columnDataOne";
+    //var dataFields=["DataOne","TEST","DataTwo","DataThree"];
+    var sourceFields=["Category","Level1","Level2","Level3","Level4","ImageData"];
+    var dataFields=["DataOne","DataThree","DataFour","DataFive","DataSix"];
+
+    //-COLORS-.       1          2          3          4          5 
+    var colors = [ "#FFA74A", "#E86950", "#FF5961", "#E84890", "#7A4BFF", "#545FFF", "#4823AF", "#E96B38", "#9B2C67"];
+
+
+    var tree = d3.layout.tree();
+
+          tree.children(function (d) { 
+            return d.values; 
+          });
+          tree.size([h, w]);
+
+
+    var toolTip = d3.select(document.getElementById("toolTip"));
+    var header = d3.select(document.getElementById("head"));
+    var header1 = d3.select(document.getElementById("header1"));
+    var header2 = d3.select(document.getElementById("header2"));
+
+    var datainfo = d3.select(document.getElementById("datainfo"));
+
+    var columnOne = d3.select(document.getElementById("columnOne"));
+    var columnTwo = d3.select(document.getElementById("columnTwo"));
+    var columnThree = d3.select(document.getElementById("columnThree"));
+
+    var button1=d3.select(document.getElementById("button1"));
+    var button2=d3.select(document.getElementById("button2"));
+    var button3=d3.select(document.getElementById("button3"));
+    var button4=d3.select(document.getElementById("button4"));
+    var button5=d3.select(document.getElementById("button5"));
+
+
+    /*Set-Tip-Selection-*/
+    var divOne=d3.select(document.getElementById("divOne"));
+    var divTwo=d3.select(document.getElementById("divTwo"));
+    var divThree=d3.select(document.getElementById("divThree"));
+
+
+    var diagonal = d3.svg.diagonal()
+            .projection(function(d) { return [d.y, d.x]; });
+
+    var vis = d3.select("#chart").append("svg:svg")                    //svg height and width-.
+            .attr("width", w + matrix[1] + matrix[3])
+            .attr("height", h + matrix[0] + matrix[2])
+            .append("svg:g")
+            .attr("transform", "translate(" + matrix[3] + "," + matrix[0] + ")");
+
+    var level1Max=0;
+    var level2Max=0;
+    var level3Max=0;
+    var level4Max=0;
+
+    var level1Radius;
+    var level2Radius;
+    var level3Radius;
+    var level4Radius;
+
+    //-RADIUS-SYSTEM-.
+    var big3 = 40;
+    var big2 = 35;
+    var big1 = 30;
+    var med3 = 25;
+    var med2 = 20;
+    var med1 = 15;
+    var sm3 = 10;
+    var sm2 = 5;
+    var sm1 = 3;
+
+    var alreadySummed=false;
+
+    var formatNumber = d3.format(",.3f");
+    var formatCurrency = function(d) { return "$" + formatNumber(d) + " Billion" };
+
+
+    // d3.csv("jssystemsII.csv", function(csv) {
+    d3.csv("web3ontology.csv", function(csv) {
+
+
+        //Category > Value Stream > Project > Production Order
+
+        var nest = d3.nest()
+                .key(function(d) { 
+                    return d.Level1; 
+                })
+                .key(function(d) { 
+                    return d.Level2; 
+                })
+                .key(function(d) { 
+                    return d.Level3; 
+                })
+                .entries(csv);
+
+        root={};
+        root.values=nest;
+        root.x0 = h / 2;
+        root.y0 = 0;
+
+        //rollup(root.values);
+
+        var nodes = tree.nodes(root).reverse();
+
+        tree.children(function (d){                                       //UPDATE-CHILDREN-TO-.children, NOT .values-.
+            return d.children;
+        });
+
+        setup();
+
+        alreadySummed=true;
+
+        // Initialize the display to show a few nodes.
+        root.values.forEach(toggleAll);
+        //toggle(root.values[0]);                                           //OPEN-DATA-BRANCH-.
+
+        update(root);
+/*
+        buttonF.on("click",function (d) {
+            buttonF.attr("class","selected")
+            buttonE.attr("class",null)
+            buttonA.attr("class",null);
+            buttonB.attr("class",null);
+            buttonC.attr("class",null);
+            buttonD.attr("class",null);
+            divOne.attr("class","selected")
+            divTwo.attr("class",null);
+            divThree.attr("class",null);
+            fieldOne="columnDataOne";
+            setup();
+            update(root);
+        });
+        buttonE.on("click",function (d) {
+            buttonE.attr("class","selected")
+            buttonA.attr("class",null);
+            buttonB.attr("class",null);
+            buttonC.attr("class",null);
+            buttonD.attr("class",null);
+            buttonF.attr("class",null);
+            divOne.attr("class","selected")
+            divTwo.attr("class",null);
+            divThree.attr("class",null);
+            fieldOne="columnDataSix";
+            setup();
+            update(root);
+        });
+        buttonD.on("click",function (d) {
+            buttonD.attr("class","selected")
+            buttonA.attr("class",null);
+            buttonB.attr("class",null);
+            buttonC.attr("class",null);
+            buttonE.attr("class",null);
+            buttonF.attr("class",null);
+            divOne.attr("class","selected")
+            divTwo.attr("class",null);
+            divThree.attr("class",null);
+            fieldOne="columnDataFive";
+            setup();
+            update(root);
+        });
+        buttonC.on("click",function (d) {
+            buttonC.attr("class","selected")
+            buttonB.attr("class",null);
+            buttonA.attr("class",null);
+            buttonD.attr("class",null);
+            buttonE.attr("class",null);
+            buttonF.attr("class",null);
+            divThree.attr("class","selected")
+            divOne.attr("class",null);
+            divTwo.attr("class",null);
+            fieldOne="columnDataFour";
+            //fieldTwo="columnDataThree";
+            setup();
+            update(root);
+        });
+        buttonB.on("click",function (d) {
+            buttonB.attr("class","selected")
+            buttonA.attr("class",null);
+            buttonC.attr("class",null);
+            buttonD.attr("class",null);
+            buttonE.attr("class",null);
+            buttonF.attr("class",null);
+            divTwo.attr("class","selected")
+            divOne.attr("class",null);
+            divThree.attr("class",null);
+            fieldOne="columnDataThree";
+            //fieldTwo="columnDataTwo";
+            setup();
+            update(root);
+        });
+        buttonA.on("click",function (d) {
+            buttonA.attr("class","selected")
+            buttonB.attr("class",null);
+            buttonC.attr("class",null);
+            buttonD.attr("class",null);
+            buttonE.attr("class",null);
+            buttonF.attr("class",null);
+            divOne.attr("class","selected")
+            divTwo.attr("class",null);
+            divThree.attr("class",null);
+            fieldOne="columnDataTwo";
+            setup();
+            update(root);
+
+        });
+*/
+        button1.on("click",function (d) {
+            button1.attr("class","selected")
+            button2.attr("class",null);
+            button3.attr("class",null);
+            button4.attr("class",null);
+            button5.attr("class",null);
+            fieldOne="columnDataOne";
+
+            dynamicChartHeight(400);
+
+            setup();
+            systemFocus(0);
+            update(root);
+        });
+        button2.on("click",function (d) {
+            button1.attr("class",null)
+            button2.attr("class","selected");
+            button3.attr("class",null);
+            button4.attr("class",null);
+            button5.attr("class",null);
+            fieldOne="columnDataOne";
+
+            dynamicChartHeight(2000);
+
+            setup();
+            systemFocus(1);
+            update(root);
+        });
+        button3.on("click",function (d) {
+            button1.attr("class",null)
+            button2.attr("class",null);
+            button3.attr("class","selected");
+            button4.attr("class",null);
+            button5.attr("class",null);
+            fieldOne="columnDataOne";
+
+            dynamicChartHeight(500);
+
+            setup();
+            systemFocus(2);
+            update(root);
+        });
+        button4.on("click",function (d) {
+            button1.attr("class",null)
+            button2.attr("class",null);
+            button3.attr("class",null);
+            button4.attr("class","selected");
+            button5.attr("class",null);
+            fieldOne="columnDataOne";
+
+            dynamicChartHeight(400);
+
+            setup();
+            systemFocus(3);
+            update(root);
+        });
+        button5.on("click",function (d) {
+            button1.attr("class",null)
+            button2.attr("class",null);
+            button3.attr("class",null);
+            button4.attr("class",null);
+            button5.attr("class","selected");
+            fieldOne="columnDataOne";
+
+            dynamicChartHeight(650);
+
+            setup();
+            systemFocus(4);
+            update(root);
+        });
+
+
+        function dynamicChartHeight(chartHeight){
+            tree.size([chartHeight, 1280]);
+            $('#chart svg').attr("height",(chartHeight+80)+"px");
+        }
+
+
+        function systemFocus(selection) {
+        	var targetNode;
+            var selectionTitle = root.values[selection].key;
+        	//Loop-Root-Values-.
+        	for(var i=0; i < root.values.length; i++){
+        		//if(selection===root.values[i].key)
+        	    recursiveIterator(root.values[i], selectionTitle);
+        	}
+        };
+
+        function recursiveIterator(d, target){
+        	if(d.key===target||target===true){
+                if(d._children!=null && d._children.length>0){
+            		//Expand-.
+                    //if(d.depth<=3)
+                        // if(d.values[0]['data_Level'+d.depth]==='b1') {
+                        //    debugger;
+                        //}
+                        var notEmpty = false;
+                        var nextLevel = d.depth+1;
+                        d.values.forEach(function(item){
+                            if(item['data_Level'+nextLevel]!=null && item['data_Level'+nextLevel]!='')
+                                notEmpty = true;
+                        })
+                       if(notEmpty){//||d['Level4']!='') 
+            		     setSystemFocus(d, true);
+                       }
+                    //toggle(d);
+            		//Recurse-.
+            		//if(d.values!=null){
+    		        	for(var i=0; i < d.values.length; i++){
+    		        		recursiveIterator(d.values[i], true);		        		
+    		        	}
+    		        //}
+                }   
+        	} else {
+        		//Collapse-.
+                if(d.children!=null && d.children.length>0){
+        		  setSystemFocus(d,false);
+                }
+        	}
+        }
+
+        function setSystemFocus(d, expand){
+	        if (expand) {
+	            d.children = d._children;
+	            d._children = null;
+	        } else {
+	            d._children = d.children;
+	            d.children = null;
+	        }
+
+        }
+
+        function setTextData(selection) {
+
+        	root.values[0];
+        };
+
+        function setup() {
+
+            level1Max=0;
+            level2Max=0;
+            level3Max=0;
+            level4Max=0;
+
+            for (var i=0; i < nodes.length; i++) {
+                var node=nodes[i];
+                rollup(node);
+            }
+
+                                                     //SET-LEVEL-RADIUS-.1
+
+            level1Radius=d3.scale.sqrt()
+                    .domain([0, level1Max])
+                    .range([1,40]);
+
+            level2Radius=d3.scale.sqrt()
+                    .domain([0, level2Max])
+                    .range([1,40]);
+
+            level3Radius=d3.scale.sqrt()
+                    .domain([0, level3Max])
+                    .range([1,40]);
+
+            level4Radius=d3.scale.sqrt()
+                    .domain([0, level4Max])
+                    .range([1,40]);
+
+        }
+
+        function rollup(node) {
+            for (var i=0;i<dataFields.length;i++) {
+
+                var dataField_name=dataFields[i];
+                if (alreadySummed == false) {
+                    var sum = (node[dataField_name] == undefined) ? node["column" + dataField_name] : Number(node[dataField_name]);
+                    if (node[dataField_name] != undefined) node["column" + dataField_name]=sum;
+                    if (node.parent) {
+                        if (node.parent["column" + dataField_name]) {
+                            node.parent["column" + dataField_name]+=sum;
+                        }
+                        else {
+                            node.parent["column" + dataField_name]=sum;
+                        }
+                    }
+                }
+
+                if ((node.parent) && (fieldOne == "column" + dataField_name)) {          //-COLUMN-NAME
+                    if (node.depth==1) {
+                        level1Max=Math.max(level1Max,node["column" + dataField_name]);
+                    }
+                    else if (node.depth==2) {
+                        level2Max=Math.max(level2Max,node["column" + dataField_name]);
+                    }
+                    else if (node.depth==3) {
+                        level3Max=Math.max(level3Max,node["column" + dataField_name]);
+                    }
+                    else if (node.depth==4) {
+                        level4Max=Math.max(level4Max,node["column" + dataField_name]);
+                    }
+                }
+            }
+
+            if (node.parent) {
+                rollup(node.parent);
+                setSourceFields(node,node.parent);
+            }
+
+
+
+
+
+            function setSourceFields(child,parent) {
+                if (parent) {
+                    for (var i=0; i < sourceFields.length; i++) {
+                        var sourceField=sourceFields[i];
+                        if (child[sourceField] != undefined) {
+                            child["data_" + sourceField] = child[sourceField];
+                        }
+                        parent["data_" + sourceField] = (child["data_" + sourceField]) ? child["data_" + sourceField] : child[sourceField];
+                    }
+                }
+
+            }
+
+        }
+
+
+        function toggleAll(d) {                // RECURSIVELY - ITERATE - DATA- VIA - NAMED CALLBACK PARAMETER -.
+            if (d.values && d.values.actuals) {
+                d.values.actuals.forEach(toggleAll);
+                toggle(d);
+            }
+            else if (d.values) {
+                d.values.forEach(toggleAll);
+                toggle(d);
+            }
+        }
+
+
+    });
+
+    function update(source) {
+
+        var duration = d3.event && d3.event.altKey ? 5000 : 500;
+
+        var nodes = tree.nodes(root).reverse();
+
+        var depthCounter=0;
+
+
+        // Set-Dynamic-Height-Of-SVG-Node-.
+        //var svgNode = vis.select('svg');
+        //svgNode.style("height", "300px");
+
+
+
+        // Iterate-Data-.
+        nodes.forEach(function(d) {
+            d.y = d.depth * 180;                                      //Set Level Y pos-.
+            d.numChildren=(d.children) ? d.children.length : 0;          //Set Number of Children...
+
+            if (d.depth==1) {     
+                var color_selector =  (depthCounter % (colors.length-1))                                        //If trunk level
+                d.linkColor=colors[color_selector];               //Set-Color-.
+                //d.linkColor=colors[(depthCounter % (colors.length-1))];               //Set-Color-.
+                //d.linkColor=colors[depthCounter];               //Set-Color-.
+                depthCounter++;
+            }
+
+            if (d.numChildren==0 && d._children) d.numChildren= d._children.length;  //morechildren
+
+        });
+
+
+        nodes.forEach(function (d) {
+            var obj=d;
+
+            while ((obj.source && obj.source.depth > 1) || obj.depth > 1) {
+                obj=(obj.source) ? obj.source.parent : obj.parent;                  //more parents
+            }
+
+            d.linkColor=(obj.source) ? obj.source.linkColor : obj.linkColor;          //Link-Color-.
+
+        });
+
+
+
+        // Update the nodes…
+        var node = vis.selectAll("g.node")
+                .data(nodes, function(d) { 
+                    return d.id || (d.id = ++i); 
+                });
+
+        // Enter any new nodes at the parent's previous position.
+        var nodeEnter = node.enter().append("svg:g")
+                .attr("class", "node")
+                .attr("transform", function(d) {
+                    return "translate(" + source.y0 + "," + source.x0 + ")";
+                })
+                .on("click", function(d) {                                           //Click-Handler-.
+
+
+                });
+
+
+            //Write-Trunk-Circle-Nodes
+            nodeEnter.append("svg:circle")                                     //CIRCLE-.Animation
+                    .attr("r", 1e-6)
+                    .on("click", function(d) { 
+                            //check to see if kids are all blank.
+                            var realNode = false;
+                            if(d.values!=null){
+                                d.values.forEach(function (d2){
+                                    if( (d2.values!=null && d2.values[0]['data_Level'+d2.depth] != '') || d2['Level4']!='') {                                // hide blank nodes-.
+                                        realNode = true;
+                                        return false;
+                                    }  
+                                });
+                            }
+
+                            if(realNode){
+                                toggle(d);
+                                update(d);
+                            }
+
+                            showTooltip(d,false);
+                    })
+                    //.on("mouseover", function(d) { node_onMouseOver(d);})
+                    /*.on("mouseout", function(d) {							// when the mouse leaves a circle, do the following
+                        toolTip.transition()									// declare the transition properties to fade-out the div
+                                .duration(500)									// it shall take 500ms
+                                .style("opacity", "0");							// and go all the way to an opacity of nil
+                    })*/
+                    .style("fill", function(d) { return d.source ? d.source.linkColor: d.linkColor;
+                    })
+                    .style("fill-opacity", ".8")
+                    .style("stroke", function(d) { return d.source ? d.source.linkColor: d.linkColor;
+                        });
+
+            //Write-All-Text-Nodes
+            nodeEnter.append("svg:text")                                  //-Text-Alignment
+                    .attr("x", function(d) { 
+       	                //Flip-Sides-When-Leaf-Node-.
+                        if(d.depth===1){return -25; }
+                        if(d._children!=undefined && d._children.length > 0){
+                            if (d.depth==2) { return -20; }
+                            else if (d.depth==3) { return 10; }
+                            else if (d.depth==4) { return 10; }
+                        } else {
+                            if (d.depth==2) { return -20; }
+                            else if (d.depth==3) { return -8; }
+                            else if (d.depth==4) { return 10; }                    
+                        } 
+                    })
+                    .attr("dy", ".35em")
+                    .attr("text-anchor",
+                    function(d) {
+                        //If-It-Is-Leaf-Align-Left-Else-Align-Right-.
+                        if(d["data_Level"+(d.depth+1)]!=null && d["data_Level"+(d.depth+1)]!=''){
+                            return "end";
+                        }else
+                          return"start";
+                        //return d.children || d._children ? "end" : "start";
+                    })
+                    .text(function(d) {
+                        var ret= (d.depth==4) ? d.Level4 : d.key;    //string trimming...
+                        ret = (String(ret).length > 50) ? String(ret).substr(0,22)  + "..." : ret;     //adds ellipses
+                        ret = (d.depth==0) ? 'WEB3' : ret;                                    //ADD-ROOT-NODE-TITLE-.
+                        return ret;
+                    })
+                    /*.on("click", function(d) { 
+                        showTooltip(d);}
+                    ) //TEXT-Hover-.*/
+                    .on("mouseover", function(d) { 
+                        showTooltip(d, true);
+                    })
+                    .on("mouseout", function(d) {							// when the mouse leaves a text, do the following
+                        toolTip.transition()									// declare the transition properties to fade-out the div
+                                .duration(500)									// it shall take 500ms
+                                .style("opacity", "0");							// and go all the way to an opacity of nil
+                    })
+                    .style("fill-opacity", "0");
+
+
+        // Transition nodes to their new position.                       //Animate
+        var nodeUpdate = node.transition()
+                .duration(duration)
+                .attr("transform", function(d) {
+                    return "translate(" + d.y + "," + d.x + ")";
+                });
+
+        nodeUpdate.select("circle")
+                .attr("r", function (d) {
+                		if(fieldOne==="columnDataOne"){
+	                        if (d.depth==0) {                                 //default size for trunk - in px.
+	                            return 5;
+	                        }
+	                        else if (d.depth==1) {                              // RADIUS -  OF - CIRCLE -.
+	                            return med2;
+	                        }
+	                        else if (d.depth==2) {
+	                            return sm3;
+	                        }
+	                        else if (d.depth==3) {
+	                            return sm2;
+	                        }
+	                        else if (d.depth==4) {
+	                            return sm1;
+	                        }
+	                    }else {
+	                        if (d.depth==0) {                                 //default size for trunk - in px. 
+	                            return 5;
+	                        }
+	                        else if (d.depth==1) {                              // RADIUS -  OF - CIRCLE -.
+	                            var ret = level1Radius(d[fieldOne]);               //read in data -.
+	                            return (isNaN(ret) ? 2 : ret);                      //return safe data-.
+	                            //return med2;
+	                        }
+	                        else if (d.depth==2) {
+	                            var ret = level2Radius(d[fieldOne]);
+	                            return (isNaN(ret) ? 2 : ret);
+	                            //return sm3;
+	                        }
+	                        else if (d.depth==3) {
+	                            var ret = level3Radius(d[fieldOne]);
+	                            return (isNaN(ret) ? 2 : ret);
+	                            //return sm2;
+	                        }
+	                        else if (d.depth==4) {
+	                            var ret = level4Radius(d[fieldOne]);
+	                            return (isNaN(ret) ? 2 : ret);
+	                            //return sm1;
+	                        }
+	                    }   
+
+                })
+                .style("fill", function(d) { return d.source ? d.source.linkColor: d.linkColor})
+                .style("fill-opacity",  function(d) {
+                    var ret = ((d.depth+1)/5);
+                    return ret; });
+
+
+
+
+        nodeUpdate.select("text")
+                .style("fill-opacity", 1);
+
+        // Transition exiting nodes to the parent's new position.
+        var nodeExit = node.exit().transition()
+                .duration(duration)
+                .attr("transform", function(d) {
+                    return "translate(" + source.y + "," + source.x + ")";
+                })
+                .remove();
+
+        nodeExit.select("circle")
+                .attr("r", 1e-6);
+
+        nodeExit.select("text")
+                .style("fill-opacity", 1e-6);
+
+        // Update the links…
+        var link = vis.selectAll("path.link")
+                .data(tree.links(nodes), function(d) {
+                    return d.target.id;
+                });
+
+        var rootCounter=0;
+
+        // Enter any new links at the parent's previous position.
+        link.enter().insert("svg:path", "g")
+                .attr("class", "link")
+                .attr("d", function(d) {
+                    if (Number(d.target[fieldOne]) > 0) {
+                        var o = {x: source.x0, y: source.y0};
+                        return diagonal({source: o, target: o});
+                    }
+                    else {
+                        null;
+                    }
+                })
+                .style("stroke",function (d,i) {
+                    if (d.source.depth==0) {
+                        rootCounter++;
+                        return (d.source.children[rootCounter-1].linkColor);
+                    }
+                    else {
+                        return (d.source) ? d.source.linkColor : d.linkColor;
+                    }
+                })
+                .style("stroke-width", function (d,i) {
+                                                                           //GET-RADIUS - STROKE-.
+                    if (d.source.depth==0) {
+                        return med2*2;
+                    }
+                    else if (d.source.depth==1) {
+                        return sm3*2;
+                    }
+                    else if (d.source.depth==2) {
+                        return sm2*2;
+                    }
+                    else if (d.source.depth==3) {
+                        return sm1*2;
+                    }
+                 })
+                .style("stroke-opacity", function(d){
+                    var ret = ((d.source.depth+1)/4.5)
+                    if (d.target[fieldOne] <= 0) ret=0;
+                    return ret;
+                })
+                .style("stroke-linecap","round")
+                .transition()
+                .duration(duration);
+          //      .attr("d", diagonal);
+
+
+        // Transition links to their new position.
+         var linkUpdate = link.transition()
+                .duration(duration)
+                .attr("d", diagonal);
+
+         linkUpdate                                                            
+                 .style("stroke-width", function (d,i) {                          //GET-RADIUS- SHADOW-.
+                     if (d.source.depth==0) {
+                         return med2*2;
+                     }
+                     else if (d.source.depth==1) {
+                         return sm3*2;
+                     }
+                     else if (d.source.depth==2) {
+                         return sm2*2;
+                     }
+                     else if (d.source.depth==3) {
+                         return sm1*2;
+                     }
+                })
+             //    .style("stroke-dasharray", function(d) {
+             //       var ret=(d.target[fieldOne] > 0) ? "" : "5,8";
+             //       return ret;
+             //    })
+                 .style("stroke-opacity", function(d){                           //SHADOW - OPACITY
+                     var ret = ((d.source.depth+1)/4.5)
+                     if (d.target[fieldOne] <= 0) ret=0;
+                     return ret;
+                 })
+
+
+        // Transition exiting nodes to the parent's new position.
+        link.exit().transition()
+                .duration(duration)
+                .attr("d", diagonal)
+                .remove();
+
+        // Stash the old positions for transition.
+        nodes.forEach(function(d) {
+            d.x0 = d.x;
+            d.y0 = d.y;
+        });
+
+        function showTooltip(d, overrideHide) {
+
+        	//if(isMobile.any()!=null)return;
+            toolTip.transition()
+                    .duration(200)
+                    .style("opacity", ".9");
+        												//Tri-Level-Title
+            header.text(d["data_Level1"]);
+            header1.text((d.depth > 1) ? d["data_Level2"] : "");
+            header2.html((d.depth > 2) ? d["data_Level3"] : "");
+            if (d.depth > 3) header2.html(header2.html() + " - "  + d["data_Level4"]);
+
+            /*Set-Image-In-ToolTip
+            if(d["data_ImageData"]!="" && d["data_ImageData"]!='0'  && d["data_ImageData"]!=undefined ){
+            //datainfo.html("HELLO");
+	            var dynimg = document.createElement("img");
+				dynimg.onload = function(e) {
+					var container = document.getElementById("datainfo");
+					container.appendChild(e.target);
+				}
+				dynimg.setAttribute("src",d["data_ImageData"]);
+				//dynimg.setAttribute("src","images/puppy.jpg");
+			}*/
+
+            var tipX=50, tipY=150;
+            //-Format-Tip-Positioning-.
+            if(d.depth===2){
+                tipY=100;
+            }else if(d.depth===3){
+                tipX=250;
+                tipY=100;
+            }else if(d.depth===4){
+                tipX=400;
+                tipY=100;
+            }
+
+            /*CROSS-DEVICE SCREEN-POSITIONING
+            var scrnwidth = screen.width;
+			var scrnheight = screen.height;*/
+
+            /*Half-Center-Hover*/
+            var topposition = 0;
+            var halfC = d3.event.pageX - 200;
+
+            /*Tip-Threshold-Y-.*/
+            var yPos = d3.event.pageY+tipY;
+            if(yPos > 600){
+            	yPos = 600;
+            }
+
+            var leftposition = halfC;
+            //var topposition = yPos;
+             /*
+             var mobiletrue = true;
+             if(mobiletrue){
+             	//leftposition = d3.event.PageX - 150;
+             	topposition = 600;
+             	if (d3.event.pageY > 500 )
+             		topposition = 700;
+             	if (d3.event.pageY < 300)
+             		topposition = 500
+             }*/
+              
+
+             //Find-Footer-Position-.
+             var bottomLine = $('#footerText').offset().top
+             topposition = bottomLine - 60;
+
+            toolTip.style("left", leftposition /*halfC*/ + "px")       //SET-TOOLTIP-POSITION.
+                    .style("top", topposition/*yPos*/ + "px");
+
+            if(d._children!=null && !overrideHide)                             //Close-Tooltip-on-Contract-.
+                toolTip.style("display","none");
+            else
+                toolTip.style("display","block");
+        }
+
+
+
+
+    }
+
+/*
+    function toggleButton(button) {
+        button.attr("class","selected");
+        if (button == buttonA) {
+            buttonC.attr("class","unselected");
+            buttonB.attr("class","unselected");
+        }
+        else if (button == buttonB) {
+            buttonC.attr("class","unselected");
+            buttonA.attr("class","unselected");
+        }
+        else {
+            buttonA.attr("class","unselected");
+            buttonB.attr("class","unselected");
+        }
+    }
+*/
+
+        // Toggle children. //MOVE-THEM-TO-_-values of _children.
+    function toggle(d) {
+        if (d.children) {
+            d._children = d.children;
+            d.children = null;
+        } else {
+            d.children = d._children;
+            d._children = null;
+        }
+    }
+
+
+
+</script>
+
+
+
+
+
+	<!--div id="makeMeScrollable">
+		<img src="../../img/jsicon3.jpeg" width="1000px" height="800px" alt="Demo image" id="dog" />
+	</div-->
+
+	<!-- LOAD JAVASCRIPT LATE - JUST BEFORE THE BODY TAG 
+	     That way the browser will have loaded the images
+		 and will know the width of the images. No need to
+		 specify the width in the CSS or inline. -->
+
+	<!-- jQuery library - Please load it from Google API's -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+	<!-- jQuery UI (Custom Download containing only Widget and Effects Core)
+	     You can make your own at: http://jqueryui.com/download -->
+	<script src="./adaptiveScroll/SmoothDiv/js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+	
+	<!-- Latest version (3.1.4) of jQuery Mouse Wheel by Brandon Aaron
+	     You will find it here: https://github.com/brandonaaron/jquery-mousewheel -->
+	<script src="./adaptiveScroll/SmoothDiv/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+
+	<!-- jQuery Kinectic (1.8.2) used for touch scrolling -->
+	<!-- https://github.com/davetayls/jquery.kinetic/ -->
+	<script src="./adaptiveScroll/SmoothDiv/js/jquery.kinetic.min.js" type="text/javascript"></script>
+
+	<!-- Smooth Div Scroll 1.3 minified-->
+	<script src="./adaptiveScroll/SmoothDiv/js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
+
+
+</body></html>

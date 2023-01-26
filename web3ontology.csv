@@ -1,0 +1,234 @@
+Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive,DataSix
+,Web3-Design,AJAX,Jessie James Garrett,,176,0,0,0,0
+,Web3-Design,JSON,Douglas Crockford,,176,0,0,0,0,0
+,Web3-Design,Web Services,RMI,,176,0,0,0,0,0
+,Web3-Design,Web Services,RPC,,76,0,0,0,0,0
+,Web3-Design,Web Services,DWR,,176,0,0,0,0,0
+,Web3-Design,Web Services,REST,,230,0,0,0,0,0
+,Web3-Design,Library I,Prototype,John Resig,176,0,0,0,0,0
+,Web3-Design,Library I,Script.aculo.us,,176,0,0,0,0,0
+,Web3-Design,Library I,...,,176,0,0,0,0,0
+,Web3-Design,GIS I,GoogleMaps,,176,0,0,0,0,0
+,Web3-Design,GIS I,GeoXtension,,176,0,0,0,0,0
+,Web3-Design,GIS I,GoogleEarth,,176,0,0,0,0,0
+,Web3-Design,GIS I,...,,176,0,0,0,0,0
+,Web3-Design,Milestone,AJAX/SOAP,,176,0,0,0,0,0
+,Web3-Design,Milestone,JSON/XML,,176,0,0,0,0,0
+,Web3-Design,Methodology,Asynchronous Data,,176,0,0,0,0,0
+,Web3-Design,Methodology,RIA,,176,0,0,0,0,0
+,Web3-Design,Methodology,"Good Parts",Douglas Crockford,176,1,0,0,0,0
+,Web3-Design,Methodology,Best-Practices,Graceful Degradation,176,1,0,0,0,0
+,Web3-Design,Methodology,Best-Practices,Progressive Enhancement,176,1,0,0,0,0
+,Web3-Design,Methodology,Best-Practices,Unobtrusive JavaScript,176,1,0,0,0,0
+,Web3-Design,Methodology,Best-Practices,Classical Inheritance,176,1,0,0,0,0
+,UI/UX,Library II,jQuery,John Resig,676,0,0,0,0,0
+,UI/UX,Library II,jQuery,Measurement:75% of Fortune 500 Websites,676,0,0,0,0,0
+,UI/UX,Library II,yui,,676,0,0,0,0,0
+,UI/UX,Library II,...,,676,0,0,0,0,0
+,UI/UX,Library II,mootools,,676,0,0,0,0,0
+,UI/UX,Library II,...,,676,0,0,0,0,0
+,UI/UX,Library II,underscore,,676,0,0,0,0,0
+,UI/UX,Library II,microjs,,676,0,0,0,0,0
+,UI/UX,Frameworks,extjs,,676,0,0,0,0,0
+,UI/UX,Frameworks,dojo,,676,0,0,0,0,0
+,UI/UX,Frameworks,...,,676,0,0,0,0,0
+,UI/UX,MVC,Angular,,676,0,0,0,0,0
+,UI/UX,MVC,Backbone,TJ Holowachuk,676,0,0,0,0,0
+,UI/UX,MVC,Batman,,676,0,0,0,0,0
+,UI/UX,MVC,ember,,676,0,0,0,0,0
+,UI/UX,MVC,knockout,,676,0,0,0,0,0
+,UI/UX,MVC,spine,,676,0,0,0,0,0
+,UI/UX,MVC,...,,676,0,0,0,0,0
+,UI/UX,MVC,Methodology:,SPA,676,0,0,0,0,0
+,UI/UX,MVC,Methodology:,Routing,676,0,0,0,0,0
+,UI/UX,MVC,Methodology:,Separation of Concerns,676,0,0,0,0,0
+,UI/UX,MVC,Measurement:,More than 40 MV*s,676,0,0,0,0,0
+,UI/UX,DesignPatterns,Addy Osmani,GoF,676,0,0,0,0,0
+,UI/UX,DesignPatterns,Namespace,,676,0,0,0,0,0
+,UI/UX,DesignPatterns,Module,,676,0,0,0,0,0
+,UI/UX,DesignPatterns,Callback,,676,0,0,0,0,0
+,UI/UX,DesignPatterns,Promise,,676,0,0,0,0,0
+,UI/UX,DesignPatterns,Iterator,,676,0,0,0,0,0
+,UI/UX,DesignPatterns,...,,676,0,0,0,0,0
+,UI/UX,VisualLibraries,Physics.js,,676,0,0,0,0,0
+,UI/UX,VisualLibraries,WebGL,,676,0,0,0,0,0
+,UI/UX,VisualLibraries,three.js,Mr.doob,676,0,0,0,0,0
+,UI/UX,VisualLibraries,canman,,676,0,0,0,0,0
+,UI/UX,VisualLibraries,box0d?,,676,0,0,0,0,0
+,UI/UX,VisualLibraries,Methodology,SVG,676,0,0,0,0,0
+,UI/UX,VisualLibraries,Methodology,CANVAS,676,0,0,0,0,0
+,UI/UX,VisualLibraries,...,,676,0,0,0,0,0
+,UI/UX,Game Engines,Melon.js,,676,0,0,0,0,0
+,UI/UX,Game Engines,Impact.js,,676,0,0,0,0,0
+,UI/UX,Game Engines,Crafty.js,,676,0,0,0,0,0
+,UI/UX,Game Engines,Lime.js,,676,0,0,0,0,0
+,UI/UX,Game Engines,Phaser.js,,676,0,0,0,0,0
+,UI/UX,Audio,midi.js,,676,0,0,0,0,0
+,UI/UX,Audio,sound.js,,676,0,0,0,0,0
+,UI/UX,Audio,...,,676,0,0,0,0,0
+,UI/UX,Video,Video.js,,676,0,0,0,0,0
+,UI/UX,Video,popcorn.js,,676,0,0,0,0,0
+,UI/UX,Mobile,PhoneGap,,676,0,0,0,0,0
+,UI/UX,Mobile,Zepto,,676,0,0,0,0,0
+,UI/UX,Mobile,Appcellerator,,676,0,0,0,0,0
+,UI/UX,Mobile,Sencha Touch,,676,0,0,0,0,0
+,UI/UX,Mobile,JQuery Mobile,,676,0,0,0,0,0
+,UI/UX,Mobile,Apigee,,676,0,0,0,0,0
+,UI/UX,Mobile,hammer.js,,676,0,0,0,0,0
+,UI/UX,Mobile,WebAPI,,676,0,0,0,0,0
+,UI/UX,Mobile,Milestone, LinkedIn Mobile,676,0,0,0,0,0
+,UI/UX,API,twitter,,676,0,0,0,0,0
+,UI/UX,API,facebook,,676,0,0,0,0,0
+,UI/UX,API,stackoverflow,,676,0,0,0,0,0
+,UI/UX,API,googlemaps,,676,0,0,0,0,0
+,UI/UX,API,googleglass,,676,0,0,0,0,0
+,UI/UX,API,...,,676,0,0,0,0,0
+,UI/UX,Charts,D3,Michael Bostok,676,0,0,0,0,0
+,UI/UX,Charts,HighCharts,,676,0,0,0,0,0
+,UI/UX,Charts,Timeline.js,,676,0,0,0,0,0
+,UI/UX,Charts,Protovis,,676,0,0,0,0,0
+,UI/UX,Charts,JIT,,676,0,0,0,0,0
+,UI/UX,Charts,RiskShaw,,676,0,0,0,0,0
+,UI/UX,Charts,DC,,676,0,0,0,0,0
+,UI/UX,Charts,Raphael,Dimitry Baranovsky,676,0,0,0,0,0
+,UI/UX,Charts,Milestone,Extensible Families,676,0,0,0,0,0
+,UI/UX,Sciences,GIS II,leaflet,676,0,0,0,0,0
+,UI/UX,Sciences,GIS II,ArcGIS,676,0,0,0,0,0
+,UI/UX,Sciences,Methodology:,GeoLocation,676,0,0,0,0,0
+,UI/UX,Sciences,Math.js,,676,0,0,0,0,0
+,UI/UX,Sciences,Date.js,,676,0,0,0,0,0
+,UI/UX,Sciences,Physics.js,,676,0,0,0,0,0
+,UI/UX,Sciences,...,,676,0,0,0,0,0
+,UI/UX,Documents,ODF,,676,0,0,0,0,0
+,UI/UX,Documents,WebODF,,676,0,0,0,0,0
+,UI/UX,Collaboration,TogetherJS,,676,0,0,0,0,0
+,UI/UX,Collaboration,GoogleDrive,,676,0,0,0,0,0
+,UI/UX,Presentation,deck.js,,676,0,0,0,0,0
+,UI/UX,Presentation,reveal.js,,676,0,0,0,0,0
+,UI/UX,Presentation,impress.js,,676,0,0,0,0,0
+,UI/UX,Presentation,...,,676,0,0,0,0,0
+,UI/UX,Utility,Loaders,requirejs,5,0,0,0,0,0
+,UI/UX,Utility,Loaders,yepnope,5,0,0,0,0,0
+,UI/UX,Utility,Loaders,curl,5,0,0,0,0,0
+,UI/UX,Utility,Loaders,component,5,0,0,0,0,0
+,UI/UX,Utility,Loaders,AMD,5,0,0,0,0,0
+,UI/UX,Utility,Build,grunt.js,5,0,0,0,0,0
+,UI/UX,Utility,Build,gulp.js,5,0,0,0,0,0
+,UI/UX,Utility,minification,uglify,5,0,0,0,0,0
+,UI/UX,Utility,minification,jsMin,5,0,0,0,0,0
+,UI/UX,Utility,minification,yui compressor,5,0,0,0,0,0
+,UI/UX,Utility,validation,jsLint,5,0,0,0,0,0
+,UI/UX,Utility,validation,jsHint,5,0,0,0,0,0
+,UI/UX,Utility,Scaffolding,TwitterBootstrap,5,0,0,0,0,0
+,UI/UX,Utility,Scaffolding,HTML5Boilerplate,5,0,0,0,0,0
+,UI/UX,Utility,Scaffolding,NodeWebkit,5,0,0,0,0,0
+,UI/UX,Utility,Scaffolding,Browserify,5,0,0,0,0,0
+,UI/UX,Utility,Scaffolding,Bower,5,0,0,0,0,0
+,UI/UX,Utility,Scaffolding,volo,5,0,0,0,0,0
+,UI/UX,Utility,Scaffolding,kendo,5,0,0,0,0,0
+,UI/UX,Utility,Scaffolding,Yeoman,5,0,0,0,0,0
+,UI/UX,Utility,Scaffolding,...,5,0,0,0,0,0
+,UI/UX,Utility,DevTools,PaulIrish,5,0,0,0,0,0
+,UI/UX,Utility,Firebug,,5,0,0,0,0,0
+,UI/UX,Utility,ErrorLog,Airbrake,5,0,0,0,0,0
+,UI/UX,Utility,ErrorLog,Sentry,5,0,0,0,0,0
+,UI/UX,Utility,Templating,handlebars,5,0,0,0,0,0
+,UI/UX,Utility,Templating,moustache,5,0,0,0,0,0
+,UI/UX,Utility,Templating,jade,5,0,0,0,0,0
+,UI/UX,Utility,Templating,...,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,jasmine,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,istanbul,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,mocha,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,karma,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,phantom.js,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,cucumber.js,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,sinon.js,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,intern,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,QUnit,5,0,0,0,0,0
+,UI/UX,Utility,TDD/BDD,...,5,0,0,0,0,0
+,UI/UX,Methodology:,Libworks & Modules,,676,0,0,0,0,0
+,UI/UX,Methodology:,Design Patterns,,676,0,0,0,0,0
+,UI/UX,Measurement,GitHub Contribution#,,676,0,0,0,0,0
+,UI/UX,Milestone:,GitHub ForkFamilies,,676,0,0,0,0,0
+,UI/UX,Milestone:,Apple/Adobe/Flash,,676,0,0,0,0,0
+,UI/UX,Milestone:,Microsoft/Silverlight,,676,0,0,0,0,0
+,UI/UX,Milestone:,GreatHorizontalMigration,,676,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,V8,,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,WebKit,,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,SquirrelFish,,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,Trident,,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,Performance,Nicolas Zakas,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,Performance,jsPerf.com,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,HTML5,WebSockets,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,HTML5,WebWorkers,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,HTML5,WebStorage,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,HTML5,WebRTC,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,HTML5,W3C,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,HTML5,...,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,CSS3,transforms,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,CSS3,animations,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,CSS3,opacity,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,CSS3,shadow,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,CSS3,glow,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,CSS3,responsive images,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,CSS3,@wilto,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,IE Legacy,modernizer,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,IE Legacy,css3pie,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,Measurement:,V8 performance,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,Methodology:,feature detection,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,Methodology:,crossbrowser,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,Methodology:,polyfills,267,0,0,0,0,0
+,BLOCKCHAIN,Browser Wars,Methodology:,shims,267,0,0,0,0,0
+,BLOCKCHAIN,Native Wars,Web Apps,,267,0,0,0,0,0
+,BLOCKCHAIN,Native Wars,HybridNative Apps,,267,0,0,0,0,0
+,BLOCKCHAIN,Native Wars,Packaged Apps,,267,0,0,0,0,0
+,BLOCKCHAIN,Native Wars,Milestone:,Native vs. Web,267,0,0,0,0,0
+,BLOCKCHAIN,Native Wars,Milestone:,"Crushing Defeat",267,0,0,0,0,0
+,BLOCKCHAIN,Native Wars,Milestone:,Zuckerberg,267,0,0,0,0,0
+,BLOCKCHAIN,Native Wars,Methodology,Cross-Platform,267,0,0,0,0,0
+,BLOCKCHAIN,Native Wars,Methodology,"close to the metal",267,0,0,0,0,0
+,Design Principles,RWD,Foundation,,267,0,0,0,0,0
+,Design Principles,RWD,Twitter Bootstrap,,267,0,0,0,0,0
+,Design Principles,RWD,HTML5 Boilerplate,Paul Irish,267,0,0,0,0,0
+,Design Principles,RWD,Milestone:,Boston Globe,267,0,0,0,0,0
+,Design Principles,RWD,Methodology:,MobileFirst,267,0,0,0,0,0
+,Design Principles,RWD,Methodology:,Luke Wroblewski,267,0,0,0,0,0
+,Community,NodeJS,Ryan Dahl,,467,0,0,0,0,0
+,Community,NodeJS,Methodology:,Non Blocking IO,467,0,0,0,0,0
+,Community,NodeJS,Milestone:,Walmart,467,0,0,0,0,0
+,Community,NodeJS,Milestone:,Paypal,467,0,0,0,0,0
+,Community,NodeJS,Milestone:,Groupon,467,0,0,0,0,0
+,Community,NodeJS,Milestone:,...,467,0,0,0,0,0
+,Community,NodeJS,NPM,Isaac Schlueter,467,0,0,0,0,0
+,Community,NodeJS,FSJS,wakanda,467,0,0,0,0,0
+,Community,NodeJS,FSJS,meteor,467,0,0,0,0,0
+,Community,NodeJS,FSJS,...,467,0,0,0,0,0
+,Community,NodeJS,MEAN,Valeri Karpov,467,0,0,0,0,0
+,Community,NodeJS,Milestone:,Microsoft and Node.js,467,0,0,0,0,0
+,Community,NodeJS,NPM,Measurement:bypassMaven2014,467,0,0,0,0,0
+,Community,NodeJS,NPM,Measurement:near20pkgperday,467,0,0,0,0,0
+,Community,NodeJS,Methodology:,FullStack JavaScript,467,0,0,0,0,0
+,Community,JS Databases,MongoDB,,467,0,0,0,0,0
+,Community,JS Databases,CouchDB,,467,0,0,0,0,0
+,Community,JS Databases,NoSQL,,467,0,0,0,0,0
+,Community,JS Databases,Measurement:,highest investment ever 250m,467,0,0,0,0,0
+,Community,JS Native,Methodology:,JSOS replace ui,467,0,0,0,0,0
+,Community,JS Native,JSOS,FireFox OS,467,0,0,0,0,0
+,Community,JS Native,JSOS,WebAPI,467,0,0,0,0,0
+,Community,JS Native,JSOS,Tizen,467,0,0,0,0,0
+,Community,JS Native,JSOS,NodeOS,467,0,0,0,0,0
+,Community,JS Native,JSOS,Intel XDE,467,0,0,0,0,0
+,Community,JS Native,JSOS,Chrome OS,467,0,0,0,0,0
+,Community,JS Native,JSOS,Chrome Apps,467,0,0,0,0,0
+,Community,JS Native,Methodology:,first class citizenship,467,0,0,0,0,0
+,Community,JS Native,Win8,WinJS,467,0,0,0,0,0
+,Community,JS Native,iOS7,JavaScriptCore,467,0,0,0,0,0
+,Community,JS Native,Methodology:,"ubiquity",467,0,0,0,0,0
+,Community,Internet of Things,johnnyfive.js,Rick Waldron,467,0,0,0,0,0
+,Community,Internet of Things,Microcontrollers,Tessel,467,0,0,0,0,0
+,Community,Internet of Things,Microcontrollers,Espruino,467,0,0,0,0,0
+,Community,Internet of Things,Microcontrollers,RaspberryPi,467,0,0,0,0,0
+,Community,Internet of Things,Microcontrollers,Arduino,467,0,0,0,0,0
+,Community,Internet of Things,Milestone,JS on Hardware,467,0,0,0,0,0
+,Community,Internet of Things,Methodology:,Vertical Integration,467,0,0,0,0,0
+,Community,Internet of Things,Methodology:,"interoperability",467,0,0,0,0,0
