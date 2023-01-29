@@ -238,7 +238,7 @@ FEDERATED IDENTITY - single multipurpose app.
 
 1. [Fork this repository](https://github.com/netcinematics/WEB3_TREASURE_MAP)
 2. Clone the forked repository
-    ``` git clone https://github.com/<your-github-username>/start-here-guidelines.git ```
+    ``` git clone https://github.com/<your-github-username>/WEB3_TREASURE_MAP.git ```
 **Replace < your-github-username >**
 3. Shift to project repository
     ``` cd WEB3_TREASURE_MAP ```
