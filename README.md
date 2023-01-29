@@ -234,4 +234,30 @@ FEDERATED IDENTITY - single multipurpose app.
         - POA Network
 
 
+### How to collaborate using the command line
+
+1. [Fork this repository](https://github.com/netcinematics/WEB3_TREASURE_MAP)
+2. Clone the forked repository
+    ``` git clone https://github.com/<your-github-username>/start-here-guidelines.git ```
+**Replace < your-github-username >**
+3. Shift to project repository
+    ``` cd WEB3_TREASURE_MAP ```
+4. Before you make any changes, keep your fork in sync to avoid merge conflicts:
+    ```
+    git remote add upstream https://github.com/zero-to-mastery/start-here-guidelines.git
+    git pull upstream main
+    ```
+5. After adding the upstream and checking that all files are up to date create a new branch before editing any files.
+    ```
+    git checkout -b <branch-name>
+    ```
+6. From here, you can make changes on your local repository
+7. Now you can add the changes, commit, and push
+    ```
+    git add .
+    git commit -m "type your message here"
+    git push origin <branch-name>
+    ```
+8. Go to the GitHub page of your fork, and make a pull request, adding a message.
+
 
