@@ -146,12 +146,105 @@ Zcash - prove transaction is correct, but do not make public sender, receiver, a
 ZkSync: should bring VISA number of TPS to 1000.
 No CENTRAL LEGER. All NODES KEEP STATE. - CONCENSUS.
 
-BLOCKCHAIN EXPLORER : Etherscan
+Defi Socialfi Gamefi wifi
+
+Digital Identity SBT
+
+Dynamic Tokens. non-transferrable, upgrades
+
+Access Tokens.
+
+Token Gating
+
+Nomenclature
+
+Lens Protocol Dispatcher - autosigner
+
+Protocol Explosion
+
+self-custody
+
+social-graph: social networks across platforms.
+
+Decentralized Governance
+
+membership
+
+NFT_Marketplaces
+
+PFP , Utility NFTs POAP
+
+Social Protocols Lens Farcaster
+
+tokenization (of physical goods to digital goods)
+
+AI - personalization, ML, NLP.
+
+NFT RECEIPT.
+
+Utility Farming - payout per use not stake.
+
+Poap Farming. Yeild Farming. Curve Wars. Fluidity
+
+liquidity, TVL, liquidity pools, stablecoin (USDT, USDC, DAI)
+
+Yield Protocol (Aave Compound)
+
+wash trading
+
+PRINCIPLES:
+minimal-click, faq, extra info tabs: txn state tips, easy acces [?] (write to blockchain, immutable, editable, refundable, etc.)
+simplify words, simplify complexity, unbounded web3 design, every txn needs good design, every txn is a UX,
+community is core. incentive alignment, 
+every token is a ux, every block in every chain is ux. we pioneer web3 design - bloodstar.
+
+P2E - play to earn
+
+crowd fund shibuya.xyz
+
+Web3 game
+
+Proof of humanity
+
+worldcoin 
+
+governance mechanism
+
+fleek.xyz/ vercel
+
+superid, civil resistence "1 cpu 1 vote"
+
+dark forest illuvium, fractal, gala games
+
+Target Audience: STUDENTS PoK and Architect reference.
+
+
+collectible, mirror 
+
+mirror.xyz, paragraph.xyz, readl, glass.xyz - solana/phantom, sound.xyz
+
+GUILD GATING - content-producer guild  (expirations) or (random-renewals) (second-opinions)
+
+INCLUSIVE and EXCLUSIVE gating.
+unbounded and impounded gating.
+
+Anti-Botnet-Design: goodactor badactor - gating : zero-false-positives, zero-true-negatives
+- whenever we are of limited ui, or stifled ux - haxors win. Always silent disUX. enUX.
+- GATE goodactorin, badactorout by enUX and disUX waterfalls. 
+
+NOT like a fortress to keep baddies out - Like an alpine-mountain-stream of pure water.
+Filter badactors like a mountain purifies water, pollutants sink in rocks, sand and swamp, while pure water flows to the top.
+That is how to GATE COMMUNITIES from digital wolves.
+
+BLOCKCHAIN EXPLORER : Etherscan, Polygonscan, Dune Analytics, 
 VERIFIABLE ENTITY
 
+antibotfoo- sensible mechanisms, designed into smartcontract, to frustrate and bankrupt haxorz.
 VERIFIED CREDENTIALS
 
 VERIFIED IDENTITY
+
+Protocol LIT
 
 TRUST TRIANGLE 
 KYC Ownable, AccessControl(roles), Pausable, Reentrancy
@@ -179,3 +272,4 @@ FEDERATED IDENTITY - single multipurpose app.
 1- issuance
 2- holder (zkproof)
 3- verified
+

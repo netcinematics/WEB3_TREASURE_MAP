@@ -6,19 +6,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link type="text/css" rel="stylesheet" href="./style.css">
-    <title>JSYSTEMSII</title>
+    <title>Web3_Tree</title>
     <style>@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
         /*********************************************
          * HEADERS
         **********************************************/
         h1,h2,h3,h4,h5,h6 {
-          margin: 0 0 20px 0;
+          /* margin: 0 0 20px 0; */
           color: #333333;
           font-family: "Quicksand", sans-serif;
-          line-height: 0.9em;
-          letter-spacing: -0.08em;
+          line-height: 1.1em;
+          letter-spacing: -0.06em;
           text-transform: uppercase;
-          text-shadow: 0px; }
+          text-shadow: 1px; }
 
         .title{ text-shadow: 3px 3px 5px rgba(150, 150, 150, 1); }
 
@@ -74,8 +74,8 @@
         The story of Web3 Computer Science.<br>
         BLOCKCHAIN, Smart-Contracts, Dapps,<br>
         <section class="instructions" style="margin-top:2px;">
-         validators, stakers, miners, minters,
-        <br><i>... and people who built it!</i>
+         validator, staker, minter, miner, designer,
+        <br><i>... and people who build it!</i>
         <h4 style="margin-top:4px;"></h4>
         </section>
     </div>
@@ -88,9 +88,10 @@
     </a>
 </div>
 
-<div class="title" style="position:absolute; left:115px; top:70px;">
-    <h3>~ Web3 ECOSYSTEM : taxonomy / ontology ~</h3>
-</div>
+<header class="title" style="position:absolute; left:115px; top:10px;">
+    <h3>Web3 ECOSYSTEM</h3>
+    <div>~ taxonomy / ontology : Web_3_Tree ~</div>
+</header>
 
 <div class="nytg-navBar" style="left:0px; top:120px; padding-top:0px; margin-right:0px;">
 
@@ -293,95 +294,7 @@ var w = window,
         //toggle(root.values[0]);                                           //OPEN-DATA-BRANCH-.
 
         update(root);
-/*
-        buttonF.on("click",function (d) {
-            buttonF.attr("class","selected")
-            buttonE.attr("class",null)
-            buttonA.attr("class",null);
-            buttonB.attr("class",null);
-            buttonC.attr("class",null);
-            buttonD.attr("class",null);
-            divOne.attr("class","selected")
-            divTwo.attr("class",null);
-            divThree.attr("class",null);
-            fieldOne="columnDataOne";
-            setup();
-            update(root);
-        });
-        buttonE.on("click",function (d) {
-            buttonE.attr("class","selected")
-            buttonA.attr("class",null);
-            buttonB.attr("class",null);
-            buttonC.attr("class",null);
-            buttonD.attr("class",null);
-            buttonF.attr("class",null);
-            divOne.attr("class","selected")
-            divTwo.attr("class",null);
-            divThree.attr("class",null);
-            fieldOne="columnDataSix";
-            setup();
-            update(root);
-        });
-        buttonD.on("click",function (d) {
-            buttonD.attr("class","selected")
-            buttonA.attr("class",null);
-            buttonB.attr("class",null);
-            buttonC.attr("class",null);
-            buttonE.attr("class",null);
-            buttonF.attr("class",null);
-            divOne.attr("class","selected")
-            divTwo.attr("class",null);
-            divThree.attr("class",null);
-            fieldOne="columnDataFive";
-            setup();
-            update(root);
-        });
-        buttonC.on("click",function (d) {
-            buttonC.attr("class","selected")
-            buttonB.attr("class",null);
-            buttonA.attr("class",null);
-            buttonD.attr("class",null);
-            buttonE.attr("class",null);
-            buttonF.attr("class",null);
-            divThree.attr("class","selected")
-            divOne.attr("class",null);
-            divTwo.attr("class",null);
-            fieldOne="columnDataFour";
-            //fieldTwo="columnDataThree";
-            setup();
-            update(root);
-        });
-        buttonB.on("click",function (d) {
-            buttonB.attr("class","selected")
-            buttonA.attr("class",null);
-            buttonC.attr("class",null);
-            buttonD.attr("class",null);
-            buttonE.attr("class",null);
-            buttonF.attr("class",null);
-            divTwo.attr("class","selected")
-            divOne.attr("class",null);
-            divThree.attr("class",null);
-            fieldOne="columnDataThree";
-            //fieldTwo="columnDataTwo";
-            setup();
-            update(root);
-        });
-        buttonA.on("click",function (d) {
-            buttonA.attr("class","selected")
-            buttonB.attr("class",null);
-            buttonC.attr("class",null);
-            buttonD.attr("class",null);
-            buttonE.attr("class",null);
-            buttonF.attr("class",null);
-            divOne.attr("class","selected")
-            divTwo.attr("class",null);
-            divThree.attr("class",null);
-            fieldOne="columnDataTwo";
-            setup();
-            update(root);
 
-        });
-*/
         button1.on("click",function (d) {
             button1.attr("class","selected")
             button2.attr("class",null);
@@ -749,19 +662,19 @@ var w = window,
                     .text(function(d) {
                         var ret= (d.depth==4) ? d.Level4 : d.key;    //string trimming...
                         ret = (String(ret).length > 50) ? String(ret).substr(0,22)  + "..." : ret;     //adds ellipses
-                        ret = (d.depth==0) ? 'WEB3' : ret;                                    //ADD-ROOT-NODE-TITLE-.
+                        ret = (d.depth==0) ? 'WEB3......' : ret;                                    //ADD-ROOT-NODE-TITLE-.
                         return ret;
                     })
                     /*.on("click", function(d) { 
                         showTooltip(d);}
                     ) //TEXT-Hover-.*/
                     .on("mouseover", function(d) { 
-                        showTooltip(d, true);
+                        // showTooltip(d, true);
                     })
                     .on("mouseout", function(d) {							// when the mouse leaves a text, do the following
-                        toolTip.transition()									// declare the transition properties to fade-out the div
-                                .duration(500)									// it shall take 500ms
-                                .style("opacity", "0");							// and go all the way to an opacity of nil
+                        // toolTip.transition()									// declare the transition properties to fade-out the div
+                        //         .duration(500)									// it shall take 500ms
+                        //         .style("opacity", "0");							// and go all the way to an opacity of nil
                     })
                     .style("fill-opacity", "0");
 
