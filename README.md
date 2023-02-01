@@ -1,4 +1,6 @@
 # WEB3_TREASURE_MAP
+
+Project Link : [https://netcinematics.github.io/WEB3_TREASURE_MAP/](https://netcinematics.github.io/WEB3_TREASURE_MAP/)
 Terminology - Taxonomy - Ontology.
 
 A study of Web3 Design topics, solution, and patterns. 
@@ -272,4 +274,87 @@ FEDERATED IDENTITY - single multipurpose app.
 1- issuance
 2- holder (zkproof)
 3- verified
+
+
+
+### Blockchain Consensus Mechanisms *(credit to our good friend chatGPT)*
+
+1. **Proof of Work (PoW)**
+    - Proof of Work (PoW) is a consensus mechanism used in some blockchain networks to validate transactions and produce new blocks. In PoW, participants compete to solve a cryptographic puzzle, and the first to find the solution is allowed to create the next block and earn a reward. The solution to the puzzle serves as proof that the participant has done a significant amount of computational work, hence the name "Proof of Work."
+        - Bitcoin
+        - Litecoin
+        - Monero
+        - Zcash
+        - Digibyte
+        - Grin
+
+2. **Proof of Stake (PoS)**
+    - Proof of Stake (PoS) is a consensus mechanism used in blockchain networks to validate transactions and reach consensus on the state of the network. Instead of using computational power as in Proof of Work, PoS uses a stake of tokens, typically held by validators, to determine the next block creator, who is then responsible for validating transactions and adding them to the blockchain. PoS is considered to be more energy-efficient than PoW and also reduces the risk of centralization as the resources required to validate transactions are limited.
+        - Cardano
+        - Cosmos
+        - Polkadot
+        - Tezos
+        - Solana
+
+3. **Delegated Proof of Stake (DPoS)**
+    - Delegated Proof of Stake (DPoS) is a consensus mechanism where token holders vote for a set of "delegates" or "witnesses" who are responsible for validating transactions and maintaining the blockchain. Instead of using computational power as in Proof of Work or staking of coins as in Proof of Stake, token holders have a say in the consensus process. This approach aims to balance decentralization and efficiency, as delegates are incentivized to act in the best interest of the network to maintain their position.
+    *Are Pos and Dpos the same thing?*
+    *No, proof-of-stake (PoS) and delegated proof-of-stake (DPoS) are not the same thing. PoS is a consensus mechanism in which validators are selected to create new blocks and validate transactions based on the amount of stake they hold. DPoS is a variation of PoS in which token holders vote for delegates, who are then responsible for validating transactions and creating new blocks. In DPoS, the power to validate transactions is centralized in the hands of a few elected delegates, while in PoS, it is distributed among all validators.*
+        - EOS
+        - TRON
+        - Lisk
+        - Steem
+        - Telos
+
+4. **Practical Byzantine Fault Tolerance (PBFT)**
+    - Practical Byzantine Fault Tolerance (PBFT) is a consensus mechanism used in blockchain technology to ensure the reliability of the network in the presence of malicious actors. It works by having a set of nodes, called validators, reach consensus on the order of transactions and the state of the network through a process of messaging and voting. PBFT is considered to be secure and efficient, but requires a relatively high number of nodes compared to other consensus mechanisms.
+    *Gossip is a communication protocol in which nodes in a decentralized network share information about their current state with each other, usually in a random and unreliable fashion. In the context of blockchain consensus mechanisms, gossip is often used as a mechanism for spreading information about transactions, blocks, and other relevant data throughout the network. This helps to ensure that all nodes have a consistent view of the state of the network and can participate in consensus algorithms such as PBFT.*
+        - Algorand
+        - Near
+        - ICON
+        - Fantom
+            - *Fantom uses the "Opera" consensus mechanism, which is a modified version of the Byzantine Fault Tolerance (BFT) consensus algorithm that combines elements of Proof of Stake (PoS) and Proof of Work (PoW).*
+
+5.  **Directed Acyclic Graph (DAG)**
+    - A Directed Acyclic Graph (DAG) is a data structure that is used in some blockchain consensus mechanisms to ensure the consistency and ordering of transactions in the network. In DAG-based systems, each node in the network holds a piece of the ledger and transactions are validated by multiple nodes, without the need for a centralized authority.
+        - Hedera Hashgraph
+        - IOTA
+        - ELASTOS
+        - Nano
+
+6. **Proof of Authority (PoA)**
+    - Proof of Authority (PoA) is a consensus mechanism in blockchain technology that utilizes a set of authoritative nodes, which are appointed or elected, to validate transactions and produce new blocks. The authoritative nodes, usually managed by trusted individuals or organizations, act as validators of the network, increasing the security and efficiency of the system. PoA is often used in private or consortium blockchains where centralization is acceptable for the specific use case.
+        - Ethereum Kovan
+        - Auroroa
+        - Tendermint
+        - Chainsafe Systems
+        - POA Network
+
+
+### How to collaborate using the command line
+
+1. [Fork this repository](https://github.com/netcinematics/WEB3_TREASURE_MAP)
+2. Clone the forked repository
+    ``` git clone https://github.com/<your-github-username>/WEB3_TREASURE_MAP.git ```
+**Replace < your-github-username >**
+3. Shift to project repository
+    ``` cd WEB3_TREASURE_MAP ```
+4. Before you make any changes, keep your fork in sync to avoid merge conflicts:
+    ```
+    git remote add upstream https://github.com/zero-to-mastery/start-here-guidelines.git
+    git pull upstream main
+    ```
+5. After adding the upstream and checking that all files are up to date create a new branch before editing any files.
+    ```
+    git checkout -b <branch-name>
+    ```
+6. From here, you can make changes on your local repository
+7. Now you can add the changes, commit, and push
+    ```
+    git add .
+    git commit -m "type your message here"
+    git push origin <branch-name>
+    ```
+8. Go to the GitHub page of your fork, and make a pull request, adding a message.
+
 
