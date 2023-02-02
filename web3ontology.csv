@@ -2,7 +2,7 @@ Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive
 ,Web3-Design,Wallet,Connect,,176,0,0,0,Web3 Wallet used as login - to "CONNECT" with website - using ethers.js or web3.js.
 ,Web3-Design,Wallet,Transact,,176,0,0,0,Transaction Design
 ,Web3-Design,Wallet,Subscribe,,176,0,0,0,0,0
-,Web3-Design,Wallet,Network,,76,0,0,0,0,0
+,Web3-Design,Wallet,Network,,76,0,0,0,0,0, Bitcoin, Ethereum
 ,Web3-Design,Wallet,Purchase,,176,0,0,0,0,0
 ,Web3-Design,Wallet,Collect,,176,0,0,0,0,0
 ,Web3-Design,Community,PLW3,,230,0,0,0,Peace Love Web3! Design for Developer Experience and Developer Relations.
