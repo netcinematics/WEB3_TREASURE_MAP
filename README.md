@@ -8,15 +8,76 @@ A study of Web3 Design topics, solution, and patterns.
 Built with D3.js Data Viz. : )
 
 
-## NOTES
+## NOTES and COMMUNITY WORKSHEET:
+
+> thank you for your Pull Requests, from awesome Alchemy University community.
+
+> topics were gathered from class notes on Web3.
+
+> additional research was conducted through Google and Chat GPT.
+
+> words were collected then organized into visual heirarchy 
+
+
+
+## Chat GPT:
+What is the ecosystem of web3?
+dApps, DEX, NFTs, digital Wallets.
+
+what are components of the web3 ecosystem?
+
+what are examples of web3 
+
+The components of the web3 ecosystem include:
+
+Decentralized Applications (dApps) - Applications that run on a decentralized network, such as a blockchain, rather than a centralized server.
+
+Decentralized Exchanges (DEXs) - Platforms for trading cryptocurrencies and other assets in a decentralized manner, without the need for a central authority.
+
+Non-Fungible Tokens (NFTs) - Unique digital assets that are stored on a blockchain and can be traded and owned like physical assets.
+
+Digital Wallets - Secure digital storage for cryptocurrencies and other assets, typically managed by the user through a private key.
+
+Smart Contracts - Self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code.
+
+Blockchain Platforms - The underlying technology that enables the creation and operation of decentralized systems, such as Ethereum, Polkadot, and others.
+
+Interoperability protocols - Solutions that allow different blockchains to communicate and exchange data, facilitating interoperability within the web3 ecosystem.
+
+what are most popular dapps:
+Uniswap - A decentralized exchange for trading cryptocurrencies.
+
+Aave - A decentralized lending and borrowing platform.
+
+MakerDAO - A decentralized platform for creating and trading stablecoins pegged to the value of a fiat currency such as the US Dollar.
+
+Compound - A decentralized platform for lending and borrowing crypto assets.
+
+Binance Smart Chain (BSC) - A blockchain platform for the development and execution of decentralized applications and decentralized exchanges.
+
+CryptoKitties - A blockchain-based game where players can collect, breed, and trade digital cats as non-fungible tokens (NFTs).
+
+Axie Infinity - A blockchain-based game where players can battle, breed, and trade creatures called Axies as NFTs.
+
+
+Examples of DEX:
+Uniswap - a leading automated market maker (AMM) based dex.
+SushiSwap - another popular AMM-based dex that was launched as a fork of Uniswap.
+Curve - a dex focusing on stablecoins with low slippage and high liquidity.
+Balancer - a dex with the capability of supporting multiple tokens in a single pool for trading.
+Aave
+
+
+ financial products like yield farming, NFT staking, and liquidity provision.
 
 
 The following is to build up the data set.
-- Web3 Front End (visual)
+- Web3 Front End (visual) wallet interaction
+
 - Web3 Transaction, purchase, stake, refund
 - Web3 Wallet
 - BLOCKCHAIN - SMART CONTRACTS ERC20 ERC721 ERC1155
-- BLOCKCHAIN - EVM, L2 (look up Encode Notes)
+- BLOCKCHAIN - EVM, L2 
 - Web3 NFT Wallet UX - login, mint, subscribe, burn, royalties,
 - BLOCKCHAIN - Security
 - Web3 Security 
@@ -45,7 +106,7 @@ Two types of ROLLUPS: ZKP or Optimistic
 
 Optimism and Arbitrum are L2 OPERATORS
 
- SNARK PROOF
+ SNARK PROOF zkSnark
 
  Snarks Plonk
 
@@ -158,8 +219,6 @@ Access Tokens.
 
 Token Gating
 
-Nomenclature
-
 Lens Protocol Dispatcher - autosigner
 
 Protocol Explosion
@@ -236,7 +295,7 @@ Anti-Botnet-Design: goodactor badactor - gating : zero-false-positives, zero-tru
 
 NOT like a fortress to keep baddies out - Like an alpine-mountain-stream of pure water.
 Filter badactors like a mountain purifies water, pollutants sink in rocks, sand and swamp, while pure water flows to the top.
-That is how to GATE COMMUNITIES from digital wolves.
+
 
 BLOCKCHAIN EXPLORER : Etherscan, Polygonscan, Dune Analytics, 
 VERIFIABLE ENTITY
@@ -356,5 +415,4 @@ FEDERATED IDENTITY - single multipurpose app.
     git push origin <branch-name>
     ```
 8. Go to the GitHub page of your fork, and make a pull request, adding a message.
-
 
