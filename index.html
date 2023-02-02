@@ -122,7 +122,6 @@
 
 <section id="txtDetailPanel" style="position:absolute; left:20px; background-color:#e8eff6; bottom:20px;  width:95%; height:200px; border:1px solid steelblue; border-radius: 13px; display:none;">
     <button style="position:absolute; right: 10px;top: 10px;" onClick="(function(){
-        console.log('hide');
         document.getElementById('txtDetailPanel').style.display = 'none';
     })();return false;">X</button>
     <div id="contentText" style="margin:10px;  background-color:#fff; padding:10px; margin-top: 40px; height:60%; overflow:auto; border:1px solid grey; border-radius:13px; ">Details...</div> 
@@ -865,12 +864,12 @@ var w = window,
         });
 
         function showTextDisplay(data){
-            if(!data.children){
+            let collapse = (data && data._children && data._children.length>1)?true:false;
+            if(!data.children && !collapse){
                 document.getElementById('txtDetailPanel').style.display = 'block';
                 let txtData = '';
-                if(data && data.values && data.values[0] && data.values[0].DataFive){
+                if(data && data.values && data.values[0] && data.values[0].DataFive != '0'){
                     txtData = data.values[0].DataFive;
-
                 } else{
                     txtData = 'no details'
                 }

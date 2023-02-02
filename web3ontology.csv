@@ -1,16 +1,16 @@
 Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive,DataSix
-,Web3-Design,Wallet,Connect,,176,,,,Web3 Wallet used as login and "CONNECT" with website - using ethers.js or web3.js.
+,Web3-Design,Wallet,Connect,,176,0,0,0,Web3 Wallet used as login - to "CONNECT" with website - using ethers.js or web3.js.
 ,Web3-Design,Wallet,Transact,,176,0,0,0,0,0
 ,Web3-Design,Wallet,Subscribe,,176,0,0,0,0,0
 ,Web3-Design,Wallet,Network,,76,0,0,0,0,0
 ,Web3-Design,Wallet,Purchase,,176,0,0,0,0,0
 ,Web3-Design,Wallet,Collect,,176,0,0,0,0,0
-,Web3-Design,Community,PLW3,,230,0,0,0,0,0
-,Web3-Design,Community,WAGMI,,176,0,0,0,0,0
-,Web3-Design,Purchase,Pending,,176,0,0,0,0,0
-,Web3-Design,Purchase,Refund,,176,0,0,0,0,0
-,Web3-Design,Purchase,Details,,176,0,0,0,0,0
-,Web3-Design,Purchase,Provenance,,176,0,0,0,0,0
+,Web3-Design,Community,PLW3,,230,0,0,0,Peace Love Web3!
+,Web3-Design,Community,WAGMI,,176,0,0,0,We all gonna make it!
+,Web3-Design,Purchase,Pending,,176,0,0,0,How does it feel to wait for a transaction to process? Set expectations for the user wait. "Delay Expectation".
+,Web3-Design,Purchase,Refund,,176,0,0,0,Is there no way to get your money back? This would be nice to know.
+,Web3-Design,Purchase,Details,,176,0,0,0,Is the data written on the BLOCKCHAIN? Is it Editable? Is it DELETABLE?
+,Web3-Design,Purchase,Provenance,,176,0,0,0,Who owned this before me.
 ,Web3-Design,Purchase,License,,176,0,0,0,0,0
 ,Web3-Design,Purchase,Dynamic,,176,0,0,0,0,0
 ,Web3-Design,Visual,NFTs,,176,0,0,0,0,0
