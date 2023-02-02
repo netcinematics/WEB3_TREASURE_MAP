@@ -1,5 +1,5 @@
 Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive,DataSix
-,Web3-Design,Wallet,Connect,,176,0,0,0,0
+,Web3-Design,Wallet,Connect,,176,,,,Web3 Wallet used as login and "CONNECT" with website - using ethers.js or web3.js.
 ,Web3-Design,Wallet,Transact,,176,0,0,0,0,0
 ,Web3-Design,Wallet,Subscribe,,176,0,0,0,0,0
 ,Web3-Design,Wallet,Network,,76,0,0,0,0,0

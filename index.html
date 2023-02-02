@@ -120,6 +120,15 @@
 
 </div> -->
 
+<section id="txtDetailPanel" style="position:absolute; left:20px; background-color:#e8eff6; bottom:20px;  width:95%; height:200px; border:1px solid steelblue; border-radius: 13px; display:none;">
+    <button style="position:absolute; right: 10px;top: 10px;" onClick="(function(){
+        console.log('hide');
+        document.getElementById('txtDetailPanel').style.display = 'none';
+    })();return false;">X</button>
+    <div id="contentText" style="margin:10px;  background-color:#fff; padding:10px; margin-top: 40px; height:60%; overflow:auto; border:1px solid grey; border-radius:13px; ">Details...</div> 
+
+</section>
+
 <!--info-text style="position:absolute; bottom:0px; left:20px; right:50px; width=100%;"-->
 <div id="footerText" class="footerText" style="width:100%;">
 
@@ -621,6 +630,7 @@ var w = window,
                             }
 
                             // showTooltip(d,false);
+                            showTextDisplay(d,false);
                     })
                     //.on("mouseover", function(d) { node_onMouseOver(d);})
                     /*.on("mouseout", function(d) {							// when the mouse leaves a circle, do the following
@@ -854,6 +864,23 @@ var w = window,
             d.y0 = d.y;
         });
 
+        function showTextDisplay(data){
+            if(!data.children){
+                document.getElementById('txtDetailPanel').style.display = 'block';
+                let txtData = '';
+                if(data && data.values && data.values[0] && data.values[0].DataFive){
+                    txtData = data.values[0].DataFive;
+
+                } else{
+                    txtData = 'no details'
+                }
+                document.getElementById('contentText').innerHTML = txtData;
+                
+            }else {
+                document.getElementById('txtDetailPanel').style.display = 'none';
+            }
+            
+        }
         function showTooltip(d, overrideHide) {
 
         	//if(isMobile.any()!=null)return;
