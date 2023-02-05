@@ -416,3 +416,6 @@ FEDERATED IDENTITY - single multipurpose app.
     ```
 8. Go to the GitHub page of your fork, and make a pull request, adding a message.
 
+Add network to wallet
+
+Incentive Alignment
