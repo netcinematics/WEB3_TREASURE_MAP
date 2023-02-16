@@ -472,7 +472,17 @@ Incentive Alignment
 
 # ECOSYSTEM-MAP | PART 2 | SOUL-BOUND-TOKENS
 
-> NOTES FROM Technical Writers Guild
+Hello! Thank you @TalonDragon000 for this opportunity, and COLLAB PROJECT!
+
+## PERSENTATION OVERVIEW 2/16/2023
+
+> 1) Lessons Learned - from Technical Writers Guild!
+
+> 2) WEB3_TREE | ECOSYSTEM MAP | SBTs - part 2
+
+> 3) PIRATE_or_NINJA | PoC, MVP | DIGITAL_IDENTITY_DESIGN
+
+### 1) Technical Writers Guild - collaboration:
 
 @swaresh, @Muscleman , @tthw , @Kazani.lens , @parshvi , @gun.eth , @pjstyles.p1 , @Pmshallie , @Slay3r , @Envoy_ , @CrackA⚡ , and @mastamynd 
 
@@ -481,7 +491,9 @@ In review of your awesome research, and thoughts, please join Designers Guild: a
 
 > I want to especially mention @tthw - that was an epic narrative (must read) - hilarious!
 
-## METHODOLOGY | NOTES | Groups - Taxonomy / Ontology / Design
+## 2) WEB3_TREE | ECOSYSTEM MAP of SBTs...
+
+> METHODOLOGY | NOTES | Groups - Taxonomy / Ontology / Design
 
 SoulBoundTokens
 
@@ -574,6 +586,13 @@ CONDITIONAL
 license, degree, proof of age
 governance - bad things for transferrable government power
 "collaborative and fun and not just about money"
+
+## 3) PIRATE_or_NINJA 
+
+> MVP, PoC...
+
+> DIGITAL_IDENTITY_DESIGN experiment.
+
 
 ---
 
