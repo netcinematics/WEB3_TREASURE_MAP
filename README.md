@@ -474,9 +474,9 @@ Incentive Alignment
 
 Hello! Thank you @TalonDragon000 for this opportunity, and COLLAB PROJECT!
 
-## PERSENTATION OVERVIEW 2/16/2023
+## PRESENTATION OVERVIEW 2/16/2023
 
-> 1) Lessons Learned - from Technical Writers Guild!
+> 1) SBT - Lessons Learned - from Technical Writers Guild!
 
 > 2) WEB3_TREE | ECOSYSTEM MAP | SBTs - part 2
 
