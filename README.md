@@ -14,9 +14,11 @@ Built with D3.js Data Viz. : )
 
 > topics were gathered from class notes on Web3.
 
-> additional research was conducted through Google and Chat GPT.
+> additional research was conducted through Google and Chat GPT 
 
-> words were collected then organized into visual heirarchy 
+> and Technical Writers Guild at Alchemy University.
+
+> words were collected then organized into visual heirarchy (taxonomy/ontology)
 
 
 
@@ -98,7 +100,10 @@ and marketplaces. OpenSea Rarible.
 DEFI - GAMEFI  
 escrow
 
-WEB3 ~ ECOSYSTEM (tech: taxonomy & ontology)
+
+---
+
+# WEB3 ~ ECOSYSTEM (tech: taxonomy & ontology)
 
 SCALING TRILEMMA - Scaling, Security, decentralization
 
@@ -253,6 +258,8 @@ Yield Protocol (Aave Compound)
 
 wash trading
 
+---
+
 PRINCIPLES:
 minimal-click, faq, extra info tabs: txn state tips, easy acces [?] (write to blockchain, immutable, editable, refundable, etc.)
 simplify words, simplify complexity, unbounded web3 design, every txn needs good design, every txn is a UX,
@@ -307,6 +314,8 @@ VERIFIED IDENTITY
 
 Protocol LIT
 
+---
+
 TRUST TRIANGLE 
 KYC Ownable, AccessControl(roles), Pausable, Reentrancy
  TimeLock - stop things in certain time.
@@ -334,7 +343,7 @@ FEDERATED IDENTITY - single multipurpose app.
 2- holder (zkproof)
 3- verified
 
-
+---
 
 ### Blockchain Consensus Mechanisms *(credit to our good friend chatGPT)*
 
@@ -422,6 +431,8 @@ Incentive Alignment
 
  MEV/Arbitrage
 
+---
+
 # BLOCKCHAIN DESIGN PRINCIPLES
  Permissionless
  Decentralized
@@ -457,6 +468,7 @@ Incentive Alignment
 
  Consensus Mechanism (DPoS, PBFT, DAG, POA)
 
+---
 
 # ECOSYSTEM-MAP | PART 2 | SOUL-BOUND-TOKENS
 
@@ -562,3 +574,8 @@ CONDITIONAL
 license, degree, proof of age
 governance - bad things for transferrable government power
 "collaborative and fun and not just about money"
+
+---
+
+
+DeSCI
