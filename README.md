@@ -419,3 +419,146 @@ FEDERATED IDENTITY - single multipurpose app.
 Add network to wallet
 
 Incentive Alignment
+
+ MEV/Arbitrage
+
+# BLOCKCHAIN DESIGN PRINCIPLES
+ Permissionless
+ Decentralized
+ Interoperable
+ Custody
+ Cryptographically verifiable
+ Governance
+ Transparent
+ Smart Contracts
+ Consensus Mechanisms
+ Token economy
+ DApps
+ Secure authentication
+ Censorship resistant
+ Immutability
+ Stateless
+
+ DeSocial
+ DIaspora Nostr Damus Mastodon Peepeth
+ Hive Minds - free speech 
+ Pixelfield
+ Status
+ Mirror 
+ Lens ProtocolSteemit
+ DTube
+ Only1
+ Aether
+
+ Wallets: MetaMask, Phantom, Rainbow, ...
+
+ JSON-RPC
+ Oracles
+
+ Consensus Mechanism (DPoS, PBFT, DAG, POA)
+
+
+# ECOSYSTEM-MAP | PART 2 | SOUL-BOUND-TOKENS
+
+> NOTES FROM Technical Writers Guild
+
+@swaresh, @Muscleman , @tthw , @Kazani.lens , @parshvi , @gun.eth , @pjstyles.p1 , @Pmshallie , @Slay3r , @Envoy_ , @CrackA⚡ , and @mastamynd 
+
+I LOVED ALL YOUR WORK! So amazing, very entertaining and very helpful.
+In review of your awesome research, and thoughts, please join Designers Guild: as we curate these clever concepts into the REALM of DESIGN! 
+
+> I want to especially mention @tthw - that was an epic narrative (must read) - hilarious!
+
+## METHODOLOGY | NOTES | Groups - Taxonomy / Ontology / Design
+
+SoulBoundTokens
+
+TRAITS
+ non-transferrable
+ non-sellable
+ wallet called soul
+ one of a kind
+
+USE CASES
+ VOTING - token weighted voting, sbt vote more democratic "one-man one vote"
+
+UNDER COLLATERALIZED LENDING
+ 5 Cs of lending collateral, condition, credit worthy, capacity, capital
+
+CERTIFICATE dynamic nfts - editable metadata change 
+
+REPUTATION-SYSTEMS
+
+EVENTS - 
+Birth Certificate
+Marriage
+Membership
+University degree
+Winning a competition/tournament
+any personal participation
+Proof of Humanity (attestation)
+POAP - proof of attendance Protocol
+CV, Portfolio
+Current Employment
+Employment history
+Crimes
+
+ZK-Snarks (privacy)
+
+Game 
+Traits accomplishments, merit, work history, medical history
+
+Token locks - secure assets at risk and encourage participation
+SOCIAL-PROOF
+
+SYBIL ATTACKS
+ Identity theft, delinquency
+
+SOCIAL-IDENTITY
+
+ARTIST-OWNERSHIP
+  origin, provenance, creator
+
+
+Proof of ownership
+Proof of Humanity, Sybil-resistant
+Proof of Belonging
+Proof of Skills
+- bot-proof
+- duplicate-proof
+- 51% proof
+KYC - authenticity
+
+credentals, affiliations
+repaid loan, completed course, right to vote, attend event
+Drivers license University degress, Proof of age, vaccination
+
+WHO USES:
+Guilds, social groups, universities, dao's, clubs, individuals.
+DeSoc - Decentralized Society
+
+PROBLEMS with SBDs:
+- kids inherit wallet
+- POAP didnt attend.
+- PoK didnt earn.
+- not creditworthy
+- pay for acheivement
+- wrapper account
+- Young concept - needs more review and POC. 
+- Imperfect
+
+DESOC - bottom up, plural netrowk goods.
+PoH, verfied with video, list of humans
+
+Vitalik
+Soulbound
+World of Warcraft
+achievements
+imperfect
+Social Signaling
+"no reason to discriminate"
+POAP: personally attended event
+CONDITIONAL
+license, degree, proof of age
+governance - bad things for transferrable government power
+"collaborative and fun and not just about money"

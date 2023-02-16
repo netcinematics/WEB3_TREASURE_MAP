@@ -126,3 +126,54 @@ Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive
 ,Community,Security,Bloom Filter,,467,0,0,0,0,0
 ,Community,Security,Griefing,,467,0,0,0,0,0
 ,Community,Security,Force-Feeding,,467,0,0,0,0,0
+,SoulBound Tokens,Traits,non-transferable,,467,0,0,0,0,0
+,SoulBound Tokens,Traits,non-sellable,,467,0,0,0,0,0
+,SoulBound Tokens,Traits,unique soul,,467,0,0,0,0,0
+,SoulBound Tokens,Traits,dynamic,,467,0,0,0,0,0
+,SoulBound Tokens,Traits,single person IDENTITY,,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,voting,one person one vote,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,lending,credit worthy,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,certificates,Birth / SSN,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,certificates,Marriage,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,certificates,Driver License,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,merit,Games,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,merit,Sports,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,merit,Grades,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,reputation,roles,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,reputation,status/socialproof,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,reputation,position,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,member,club,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,member,company,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,member,country,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,history,CV Employment,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,history,Medical,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,history,Provenance,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,history,Crimes,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,events,birth,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,events,graduation,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,events,marriage,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,proofs,PoK,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,proofs,PoH,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,proofs,KYC,467,0,0,0,0,0
+,SoulBound Tokens,UseCase,proofs,Age 21,467,0,0,0,0,0
+,SoulBound Tokens,Users,DAOs,,467,0,0,0,0,0
+,SoulBound Tokens,Users,individuals,,467,0,0,0,0,0
+,SoulBound Tokens,Users,governments,,467,0,0,0,0,0
+,SoulBound Tokens,Users,clubs/brands,,467,0,0,0,0,0
+,SoulBound Tokens,Users,schools,,467,0,0,0,0,0
+,SoulBound Tokens,Users,companies,,467,0,0,0,0,0
+,SoulBound Tokens,Users,DeSOCs,,467,0,0,0,0,0
+,SoulBound Tokens,Problems,imperfect / circumventable,,467,0,0,0,0,0
+,SoulBound Tokens,Problems,inherit to kids,,467,0,0,0,0,0
+,SoulBound Tokens,Problems,didnt earn PoK,,467,0,0,0,0,0
+,SoulBound Tokens,Problems,didnt attend POAP,,467,0,0,0,0,0
+,SoulBound Tokens,Problems,pay for status,,467,0,0,0,0,0
+,SoulBound Tokens,Problems,wrapper account,,467,0,0,0,0,0
+,SoulBound Tokens,Problems,theft,,467,0,0,0,0,0
+,SoulBound Tokens,Problems,overreach,,467,0,0,0,0,0
+,SoulBound Tokens,Solutions,Gatekeeper,,467,0,0,0,0,0
+,SoulBound Tokens,Solutions,Scan QR code,,467,0,0,0,0,0
+,SoulBound Tokens,Solutions,Face Image/Match,,467,0,0,0,0,0
+,SoulBound Tokens,Solutions,Timestamp/Expiration,,467,0,0,0,0,0
+,SoulBound Tokens,Solutions,Two-Factor Auth/Code,,467,0,0,0,0,0
+,SoulBound Tokens,Solutions,Zero Knowledge Proof,,467,0,0,0,0,0

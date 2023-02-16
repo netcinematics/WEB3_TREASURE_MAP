@@ -13,17 +13,34 @@
         **********************************************/
         h1,h2,h3,h4,h5,h6 {
           /* margin: 0 0 20px 0; */
-          color: #333333;
+          /* color: #333333; */
           font-family: "Quicksand", sans-serif;
           line-height: 1.1em;
           letter-spacing: -0.06em;
           text-transform: uppercase;
-          text-shadow: 1px; }
+          /* text-shadow: 1px; */
+         }
 
-        .title{ text-shadow: 3px 3px 5px rgba(150, 150, 150, 1); }
+        .title{ text-shadow:3px 3px 1px rgb(4 55 246); }
 
         .footerText { color:#999;}
         .footerText a{ text-decoration: underline; color:#888;}
+
+         li{
+            background: darkslateblue;
+    color: steelblue;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+
+         }
+
+        .btn{
+            background: darkslateblue;
+    color: steelblue;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+
+         }
 
         /*.dynamicSize svg{ 
             height:1800px;
@@ -41,12 +58,28 @@
     }
     @media screen and (max-width: 800px) /* MEDIA-QUERY: TABLET-LANDSCAPE - SMALLER THAN 768 WIDE */
     {
-        .nytg-navigation li {float: none;}
+        .nytg-navigation li {
+            
+            background: darkslateblue;
+    color: steelblue;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+            float: none;}
         /*#chart {top: 200px;}*/
-        .rounded li {border-radius: 4px; border:solid 1px #CCC;}
+        .rounded li {
+            
+            background: darkslateblue;
+    color: steelblue;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+            border-radius: 8px;     border: 1px solid blueviolet;}
         .nytg-navigation li:last-of-type {
-            border-right: solid 1px #CCC;
-            border-radius: 4px 4px 4px 4px;
+            /* border-right: solid 1px #CCC; */
+            /* border-radius: 4px 4px 4px 4px; */
+            background: darkslateblue;
+    color: steelblue;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
         }
         #chart{margin-top:3px;}
         /*#chart {overflow:scroll;}*/
@@ -67,7 +100,7 @@
 
 </head>
 <!--body style="height:900px; width:1280px; overflow:auto"-->
-<body>
+<body style="background:black; color:steelblue;">
 <div class="rightHeaderTips" style="float:right; text-align:right">
     <div class="hint" style="padding-top:6px; color: #50789f;">
         <h4 style="margin-bottom: 6px; margin-top: 8px;">W e b 3  D e s i g n</h4>
@@ -75,7 +108,7 @@
         BLOCKCHAIN, Smart-Contracts, Dapps,<br>
         <section class="instructions" style="margin-top:2px;">
          validator, staker, minter, miner, designer,
-        <br><i>... and people who build it!</i>
+        <br><i>... </i>
         <h4 style="margin-top:4px;"></h4>
         </section>
     </div>
@@ -89,18 +122,18 @@
 </div>
 
 <header class="title" style="position:absolute; left:115px; top:10px;">
-    <h3>Web3 ECOSYSTEM</h3>
-    <div>~ taxonomy / ontology : Web_3_Tree ~</div>
+    <h3>Web3_Tree</h3>
+    <div>~ Web3 Ecosystem : taxonomy | ontology   ~</div>
 </header>
 
 <div class="nytg-navBar" style="left:0px; top:120px; padding-top:0px; margin-right:0px;">
 
     <ul class="nytg-navigation clearfix rounded" style="list-style-type:none; padding-left:13px;">
-        <li id="button1">WEB3</li>
-        <li id="button2">UI/UX</li>
-        <li id="button3">BLOCKCHAIN</li>
-        <li id="button4">Patterns</li>
-        <li id="button5">Community</li>
+        <li id="button1" class="btn">WEB3</li>
+        <li id="button2" class="btn">UI/UX</li>
+        <li id="button3" class="btn">BLOCKCHAIN</li>
+        <li id="button4" class="btn">Patterns</li>
+        <li id="button5" class="btn">Community</li>
     </ul>
 </div>
 
@@ -649,8 +682,8 @@ var w = window,
        	                //Flip-Sides-When-Leaf-Node-.
                         if(d.depth===1){return -25; }
                         if(d._children!=undefined && d._children.length > 0){
-                            if (d.depth==2) { return -20; }
-                            else if (d.depth==3) { return 10; }
+                            if (d.depth==2) { return 15; }
+                            else if (d.depth==3) { return 20; }
                             else if (d.depth==4) { return 10; }
                         } else {
                             if (d.depth==2) { return -20; }
@@ -658,7 +691,22 @@ var w = window,
                             else if (d.depth==4) { return 10; }                    
                         } 
                     })
-                    .attr("dy", ".35em")
+                    .attr("dy", function(d){
+                        if(d.depth===1){return '.35em'; }
+                        if(d._children!=undefined && d._children.length > 0){
+                            if (d.depth==2) { return '-1em'; }
+                            else if (d.depth==3) { return '-.5em'; }
+                            else if (d.depth==4) { return '.35em'; }
+                        } else {
+                            if (d.depth==2) { return '.35em'; }
+                            else if (d.depth==3) { return '-1em'; }
+                            else if (d.depth==4) { return '.35em'; }                    
+                        } 
+
+                    })
+                    // .attr("dy", "-1em")
+                    // .attr("dy", ".35em")
+                    // .style('color','steelblue')
                     .attr("text-anchor",
                     function(d) {
                         //If-It-Is-Leaf-Align-Left-Else-Align-Right-.
@@ -671,9 +719,9 @@ var w = window,
                     .text(function(d) {
                         var ret= (d.depth==4) ? d.Level4 : d.key;    //string trimming...
                         ret = (String(ret).length > 50) ? String(ret).substr(0,22)  + "..." : ret;     //adds ellipses
-                        ret = (d.depth==0) ? 'WEB3......' : ret;                                    //ADD-ROOT-NODE-TITLE-.
+                        ret = (d.depth==0) ? 'WEB3____' : ret;                                    //ADD-ROOT-NODE-TITLE-.
                         return ret;
-                    })
+                    })//.style('color','steelblue')
                     /*.on("click", function(d) { 
                         showTooltip(d);}
                     ) //TEXT-Hover-.*/
@@ -748,7 +796,7 @@ var w = window,
 
 
 
-        nodeUpdate.select("text")
+        nodeUpdate.select("text").style('stroke','steelblue').style('font-family','system-ui')
                 .style("fill-opacity", 1);
 
         // Transition exiting nodes to the parent's new position.
@@ -762,7 +810,7 @@ var w = window,
         nodeExit.select("circle")
                 .attr("r", 1e-6);
 
-        nodeExit.select("text")
+        nodeExit.select("text").style('color','steelblue')
                 .style("fill-opacity", 1e-6);
 
         // Update the links…
