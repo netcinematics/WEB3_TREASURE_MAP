@@ -46,7 +46,7 @@ Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive
 ,BLOCKCHAIN,SmartContracts,ERC20,,267,0,0,0,0,0
 ,BLOCKCHAIN,SmartContracts,ERC721,,267,0,0,0,0,0
 ,BLOCKCHAIN,SmartContracts,ERC1155,,267,0,0,0,0,0
-,BLOCKCHAIN,SmartContracts,...,,267,0,0,0,0,0
+,BLOCKCHAIN,SmartContracts,ERC2981,,267,0,0,0,0,0
 ,BLOCKCHAIN,EVM,Solidity,,267,0,0,0,0,0
 ,BLOCKCHAIN,EVM,Vyper,,267,0,0,0,0,0
 ,BLOCKCHAIN,EVM,Hardfork,,267,0,0,0,0,0
@@ -87,12 +87,12 @@ Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive
 ,Design Patterns,Triangle of Trust,Issuer,,267,0,0,0,0,0
 ,Design Patterns,Triangle of Trust,Holder,,267,0,0,0,0,0
 ,Design Patterns,Triangle of Trust,Verifier,,267,0,0,0,0,0
-,Design Patterns,Scaling Trilemma,decentralized,,267,0,0,0,0,0
-,Design Patterns,Scaling Trilemma,scalability,,267,0,0,0,0,0
-,Design Patterns,Scaling Trilemma,security,,267,0,0,0,0,0
+,Design Patterns,Trilemma,decentralized,,267,0,0,0,0,0
+,Design Patterns,Trilemma,scalable,,267,0,0,0,0,0
+,Design Patterns,Trilemma,secure,,267,0,0,0,0,0
 ,Design Patterns,Snarks,,,267,0,0,0,0,0
 ,Design Patterns,Plonks,,,267,0,0,0,0,0
-,Design Patterns,Multi-Sig-Wallet,,,267,0,0,0,0,0
+,Design Patterns,Multi-Sig-Wallet,Gnosis Safe,,267,0,0,0,0,0
 ,Design Patterns,Upgradable,Diamonds,,267,0,0,0,0,0
 ,Design Patterns,Upgradable,UUPS,,267,0,0,0,0,0
 ,Design Patterns,IPFS,CID,,267,0,0,0,0,0
@@ -116,8 +116,10 @@ Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive
 ,Community,Tokens,SocialGraph,,467,0,0,0,0,0
 ,Community,Tokens,Gating,,467,0,0,0,0,0
 ,Community,Tokens,Tokenization,,467,0,0,0,0,0
-,Community,Public Good,Crowdfund,,467,0,0,0,0,0
-,Community,Public Good,Shibuya,,467,0,0,0,0,0
+,Community,Public Good,Crowdfund,Shibuya,467,0,0,0,0,0
+,Community,Public Good,Impact Project,,467,0,0,0,0,0
+,Community,Public Good,ReGenerative,,467,0,0,0,0,0
+,Community,Public Good,IBIS,,467,0,0,0,0,0
 ,Community,DAO,Governance,,467,0,0,0,0,0
 ,Community,Security,Scams,,467,0,0,0,0,0
 ,Community,Security,Rug pulls,,467,0,0,0,0,0
