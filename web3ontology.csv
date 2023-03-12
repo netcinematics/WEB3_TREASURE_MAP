@@ -67,6 +67,11 @@ Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive
 ,BLOCKCHAIN,DEX,SushiSwap,,267,0,0,0,0,0
 ,BLOCKCHAIN,DEX,Curve,,267,0,0,0,0,0
 ,BLOCKCHAIN,DEX,Balancer,,267,0,0,0,0,0
+,BLOCKCHAIN,What?,Transaction,,267,0,0,0,0,0
+,BLOCKCHAIN,What?,Block,,267,0,0,0,0,0
+,BLOCKCHAIN,What?,Verification,,267,0,0,0,0,0
+,BLOCKCHAIN,What?,Hash,,267,0,0,0,0,0
+,BLOCKCHAIN,What?,Execution,,267,0,0,0,0,0
 ,BLOCKCHAIN,Tools,Waffle,,267,0,0,0,0,0
 ,BLOCKCHAIN,Tools,Truffle,,267,0,0,0,0,0
 ,BLOCKCHAIN,Tools,Hardhat,,267,0,0,0,0,0
