@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link type="text/css" rel="stylesheet" href="./style.css">
-    <title>Web3_Tree</title>
+    <title>Web3_Treasure_Map</title>
     <style>@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
         /*********************************************
          * HEADERS
@@ -28,7 +28,7 @@
 
          li{
             background: darkslateblue;
-    color: steelblue;
+    color: skyblue;
     border: 1px solid blueviolet;
     border-radius: 8px;
 
@@ -122,7 +122,7 @@
 </div>
 
 <header class="title" style="position:absolute; left:115px; top:10px;">
-    <h3>Web3_Tree</h3>
+    <h3>Web3_Treasure_Map</h3>
     <div>~ Web3 Ecosystem : taxonomy | ontology   ~</div>
 </header>
 
@@ -682,7 +682,7 @@ var w = window,
        	                //Flip-Sides-When-Leaf-Node-.
                         if(d.depth===1){return -25; }
                         if(d._children!=undefined && d._children.length > 0){
-                            if (d.depth==2) { return 15; }
+                            if (d.depth==2) { return -15; }
                             else if (d.depth==3) { return 20; }
                             else if (d.depth==4) { return 10; }
                         } else {
@@ -796,7 +796,7 @@ var w = window,
 
 
 
-        nodeUpdate.select("text").style('stroke','steelblue').style('font-family','system-ui')
+        nodeUpdate.select("text").style('stroke','skyblue').style('font-family','system-ui')
                 .style("fill-opacity", 1);
 
         // Transition exiting nodes to the parent's new position.
@@ -810,7 +810,7 @@ var w = window,
         nodeExit.select("circle")
                 .attr("r", 1e-6);
 
-        nodeExit.select("text").style('color','steelblue')
+        nodeExit.select("text").style('color','skyblue')
                 .style("fill-opacity", 1e-6);
 
         // Update the links…
