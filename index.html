@@ -129,6 +129,7 @@
 <div class="nytg-navBar" style="left:0px; top:120px; padding-top:0px; margin-right:0px;">
 
     <ul class="nytg-navigation clearfix rounded" style="list-style-type:none; padding-left:13px;">
+        <li id="button0" class="btn">all</li>
         <li id="button1" class="btn">WEB3</li>
         <li id="button2" class="btn">UI/UX</li>
         <li id="button3" class="btn">BLOCKCHAIN</li>
@@ -246,6 +247,7 @@ var w = window,
     var columnTwo = d3.select(document.getElementById("columnTwo"));
     var columnThree = d3.select(document.getElementById("columnThree"));
 
+    var button0=d3.select(document.getElementById("button0"));
     var button1=d3.select(document.getElementById("button1"));
     var button2=d3.select(document.getElementById("button2"));
     var button3=d3.select(document.getElementById("button3"));
@@ -336,7 +338,23 @@ var w = window,
 
         update(root);
 
+        button0.on("click",function (d) { 
+            // button0.attr("class","selected")
+            // button1.attr("class",null)
+            // button2.attr("class",null);
+            // button3.attr("class",null);
+            // button4.attr("class",null);
+            // button5.attr("class",null);
+            // fieldOne="columnDataOne";
+
+            // dynamicChartHeight(400);
+            window.location.reload() 
+            // setup();
+            // systemFocus(0);
+            // update(root);
+        } );
         button1.on("click",function (d) {
+            button0.attr("class",null)
             button1.attr("class","selected")
             button2.attr("class",null);
             button3.attr("class",null);
@@ -351,6 +369,7 @@ var w = window,
             update(root);
         });
         button2.on("click",function (d) {
+            button0.attr("class",null)            
             button1.attr("class",null)
             button2.attr("class","selected");
             button3.attr("class",null);
@@ -365,6 +384,7 @@ var w = window,
             update(root);
         });
         button3.on("click",function (d) {
+            button0.attr("class",null)            
             button1.attr("class",null)
             button2.attr("class",null);
             button3.attr("class","selected");
@@ -379,6 +399,7 @@ var w = window,
             update(root);
         });
         button4.on("click",function (d) {
+            button0.attr("class",null)            
             button1.attr("class",null)
             button2.attr("class",null);
             button3.attr("class",null);
@@ -393,6 +414,7 @@ var w = window,
             update(root);
         });
         button5.on("click",function (d) {
+            button0.attr("class",null)            
             button1.attr("class",null)
             button2.attr("class",null);
             button3.attr("class",null);
@@ -662,7 +684,7 @@ var w = window,
                             }
 
                             // showTooltip(d,false);
-                            showTextDisplay(d,false);
+                            // showTextDisplay(d,false); //TODO fill data
                     })
                     //.on("mouseover", function(d) { node_onMouseOver(d);})
                     /*.on("mouseout", function(d) {							// when the mouse leaves a circle, do the following

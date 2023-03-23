@@ -17,10 +17,59 @@ Category,Level1,Level2,Level3,Level4,DataOne,DataTwo,DataThree,DataFour,DataFive
 ,Web3-Design,Visual,UI/UX,,176,0,0,0,0,0
 ,Web3-Design,Interactions,UX,,176,0,0,0,0,0
 ,Web3-Design,Transactions,UX,,176,0,0,0,0,0
-,Polygon,a?,b?,,176,0,0,0,0,0
-,Polygon,a?,c?,,176,0,0,0,0,0
-,Polygon,a1?,b?,,176,0,0,0,0,0
-,Polygon,a2?,b2?,,176,0,0,0,0,0
+,Polygon,Architecture,PoS,Piece of Steak,176,0,0,0,0,0
+,Polygon,Architecture,L2 on ETH,,176,0,0,0,0,0
+,Polygon,Architecture,sidechain networks,,176,0,0,0,0,0
+,Polygon,Architecture,commit chains,parallel ETH,176,0,0,0,0,0
+,Polygon,Architecture,faster/cheaper,,176,0,0,0,0,0
+,Polygon,Architecture,plasma security,,176,0,0,0,0,0
+,Polygon,Architecture,Polygon SDK,Dapps,176,0,0,0,0,0
+,Polygon,Architecture,Polygon SDK,concensus mechanism,176,0,0,0,0,0
+,Polygon,Architecture,Polygon SDK,ETH Bridge,176,0,0,0,0,0
+,Polygon,PolygonId,verification,identity,176,0,0,0,0,0
+,Polygon,PolygonId,verification,credentials,176,0,0,0,0,0
+,Polygon,PolygonId,verification,entity,176,0,0,0,0,0
+,Polygon,PolygonId,principles,freedom of expression,176,0,0,0,0,0
+,Polygon,PolygonId,principles,privacy by default,176,0,0,0,0,0
+,Polygon,PolygonId,Triangle of Trust,Issuer,176,0,0,0,0,0
+,Polygon,PolygonId,Triangle of Trust,Holder,176,0,0,0,0,0
+,Polygon,PolygonId,Triangle of Trust,Validator,176,0,0,0,0,0
+,Polygon,PolygonId,SSI,Self Sovriegn Identity,176,0,0,0,0,0
+,Polygon,PolygonId,SSI,Federated Identity,176,0,0,0,0,0
+,Polygon,Zero-Knowledge (ZK),isolated proof,,176,0,0,0,0,0
+,Polygon,Zero-Knowledge (ZK),partial disclosure,,176,0,0,0,0,0
+,Polygon,Zero-Knowledge (ZK),zkRollup,,176,0,0,0,0,0
+,Polygon,Zero-Knowledge (ZK),zkEVM,,176,0,0,0,0,0
+,Polygon,L2/L3,Layers of transaction,,176,0,0,0,0,0
+,Polygon,L2/L3,Layers of execution,,176,0,0,0,0,0
+,Polygon,L2/L3,Layers of validation,,176,0,0,0,0,0
+,Polygon,L2/L3,L2,scalability,176,0,0,0,0,0
+,Polygon,L2/L3,L2,zkRollups,176,0,0,0,0,0
+,Polygon,L2/L3,L2,Optimistic Rollups,176,0,0,0,0,0
+,Polygon,L2/L3,L3,interoperability,176,0,0,0,0,0
+,Polygon,L2/L3,L3,crosschain,176,0,0,0,0,0
+,Polygon,CHAINS,ETH Mainnet,,176,0,0,0,0,0
+,Polygon,CHAINS,Polygon PoS,,176,0,0,0,0,0
+,Polygon,CHAINS,Polygon SDK,,176,0,0,0,0,0
+,Polygon,CHAINS,Optimistic Rollups,assume valid,176,0,0,0,0,0
+,Polygon,CHAINS,zkRollups,preserve privacy,176,0,0,0,0,0
+,Polygon,BRIDGES,PoS Bridge, to ETH mainnet,176,0,0,0,0,0
+,Polygon,BRIDGES,Plasma Bridge,security,176,0,0,0,0,0
+,Polygon,BRIDGES,Plasma Bridge,older,176,0,0,0,0,0
+,Polygon,BRIDGES,Hop Protocol Bridge,crosschain bridge,176,0,0,0,0,0
+,Polygon,BRIDGES,xDai Bridge,another L2,176,0,0,0,0,0
+,Polygon,zkEVM,zero knowledge ethereum virtual machine,,176,0,0,0,0,0
+,Polygon,zkEVM,executed offchain,,176,0,0,0,0,0
+,Polygon,zkEVM,zkProof verified mainnet,,176,0,0,0,0,0
+,Polygon,zkEVM,faster cheaper,,176,0,0,0,0,0
+,Polygon,zkEVM,privacy preserving,,176,0,0,0,0,0
+,Polygon,zkEVM,no disclosure,,176,0,0,0,0,0
+,Polygon,zkEVM,innovation,zkp validate transact,176,0,0,0,0,0
+,Polygon,zkEVM,innovation,new usecase dapps,176,0,0,0,0,0
+,Polygon,Trilemma Dilemma?,Is Trilemma solved?,,176,0,0,0,0,0
+,Polygon,Trilemma Dilemma?,Averted by sidechains?,,176,0,0,0,0,0
+,Polygon,Trilemma Dilemma?,How do we know?,,176,0,0,0,0,0
+,Polygon,Trilemma Dilemma?,What do you think?,,176,0,0,0,0,0
 ,UI/UX,Defi,yield farm,,676,0,0,0,0,0
 ,UI/UX,Defi,staking,,676,0,0,0,0,0
 ,UI/UX,Defi,liquidity,,676,0,0,0,0,0
